@@ -918,9 +918,8 @@ msgid "Language:"
 msgstr "言語"
 
 #: trac/prefs/templates/prefs_language.html:16
-#, fuzzy
 msgid "default language"
-msgstr "デフォルトの言語"
+msgstr "システムデフォルトの言語"
 
 #: trac/prefs/templates/prefs_language.html:21
 msgid ""
@@ -1309,7 +1308,7 @@ msgstr ""
 
 #: trac/templates/error.html:84
 msgid "Create"
-msgstr ""
+msgstr "作成"
 
 #: trac/templates/error.html:99
 msgid "Oops…"
@@ -1362,7 +1361,6 @@ msgstr ""
 "Tracチームに報告することを検討してください。"
 
 #: trac/templates/error.html:126
-#, fuzzy
 msgid ""
 "Before you do that, though, please first try\n"
 "                [1:searching]\n"
@@ -1373,12 +1371,16 @@ msgid ""
 "                and configuration of Trac, please try the\n"
 "                [2:mailing list]\n"
 "                instead of filing a ticket."
-msgstr "しかしながら、報告を行なう既に同じような不具合が報告されていないか[1:検索]してください。Tracインストールや設定に関する質問はチケットを作成するのではなく[2:メーリングリスト]に投稿するのがよいでしょう。"
+msgstr ""
+"実際に報告を行なう前に、既に同じような不具合が報告されていないか"
+"[1:検索]してください。"
+"またTracのインストールや設定に関する質問は、チケットを作成するのではなく"
+"[2:メーリングリスト]に投稿するのがよいでしょう。"
 
 #: trac/templates/error.html:136
 msgid "Otherwise, please"
 msgstr ""
-"あるいはTracプロジェクトのサイトにて、\n"
+"そうでなければ、Tracプロジェクトのサイトにて\n"
 "不具合の詳細と再現手順を書き添えた新しいチケットを"
 
 #: trac/templates/error.html:136
@@ -1435,7 +1437,7 @@ msgstr "システム情報:"
 
 #: trac/templates/error.html:192
 msgid "TracGuide"
-msgstr "ガイド"
+msgstr "ヘルプ/ガイド"
 
 #: trac/templates/error.html:192
 msgid "— The Trac User and Administration Guide"
@@ -1647,7 +1649,7 @@ msgstr "コンポーネント %(name)s はすでに登録されています。"
 
 #: trac/ticket/admin.py:94
 msgid "No component selected"
-msgstr ""
+msgstr "コンポーネントが選択されていません"
 
 #: trac/ticket/admin.py:157 trac/ticket/roadmap.py:632
 msgid "Completion date may not be in the future"
@@ -1664,7 +1666,7 @@ msgstr "マイルストーン %(name)s はすでに登録されています。"
 
 #: trac/ticket/admin.py:192
 msgid "No milestone selected"
-msgstr ""
+msgstr "マイルストーンが選択されていません"
 
 #: trac/ticket/admin.py:267
 #, python-format
@@ -1673,7 +1675,7 @@ msgstr "プラグイン %(name)s はすでにインストールされていま�
 
 #: trac/ticket/admin.py:274
 msgid "No version selected"
-msgstr ""
+msgstr "バージョンが選択されていません"
 
 #: trac/ticket/admin.py:348
 #, python-format
@@ -1741,27 +1743,27 @@ msgstr ""
 #: trac/ticket/model.py:363
 #, python-format
 msgid "%(type)s %(name)s does not exist."
-msgstr ""
+msgstr "%(type)s %(name)s は存在しません。"
 
 #: trac/ticket/model.py:507
 #, python-format
 msgid "Component %(name)s does not exist."
-msgstr ""
+msgstr "コンポーネント %(name)s は存在しません。 "
 
 #: trac/ticket/model.py:737
 #, python-format
 msgid "Version %(name)s does not exist."
-msgstr ""
+msgstr "バージョン %(name)s は存在しません。"
 
 #: trac/ticket/query.py:72
 #, python-format
 msgid "Query page %(page)s is invalid."
-msgstr ""
+msgstr "ページ番号 %(page)s は不正です。"
 
 #: trac/ticket/query.py:88
 #, python-format
 msgid "Query max %(max)s is invalid."
-msgstr ""
+msgstr "表示件数 %(max)s は不正です。"
 
 #: trac/ticket/query.py:135
 msgid "Query filter requires field and constraints separated by a \"=\""
@@ -1976,27 +1978,23 @@ msgid "Ticket details"
 msgstr "チケットの詳細"
 
 #: trac/ticket/web_ui.py:210
-#, fuzzy
 msgid "created"
-msgstr "作成されました"
+msgstr "が登録されました"
 
 #: trac/ticket/web_ui.py:211
-#, fuzzy
 msgid "reopened"
-msgstr " "
+msgstr "が差し戻されました"
 
 #: trac/ticket/web_ui.py:212
-#, fuzzy
 msgid "closed"
-msgstr "完了済"
+msgstr "が解決されました"
 
 #: trac/ticket/web_ui.py:213
-#, fuzzy
 msgid "updated"
-msgstr "更新"
+msgstr "が更新されました"
 
 #: trac/ticket/web_ui.py:309
-#, fuzzy, python-format
+#, python-format
 msgid "Ticket %(ticketref)s (%(summary)s) %(verb)s"
 msgstr "チケット %(ticketref)s (%(summary)s) %(verb)s"
 
@@ -2227,10 +2225,10 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:28
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
-msgstr[0] ""
+msgstr[0] "%(num)s 件マッチ"
 
 #: trac/ticket/templates/query.html:37
 msgid "Filters"
@@ -2262,7 +2260,7 @@ msgstr "各検索結果の下に表示:"
 
 #: trac/ticket/templates/query.html:171
 msgid "Max items per page"
-msgstr ""
+msgstr "1ページに表示する件数"
 
 #: trac/ticket/templates/query.html:214
 msgid "Edit query"
@@ -2275,11 +2273,11 @@ msgstr "このクエリを保存"
 #: trac/ticket/templates/query.html:222
 #, python-format
 msgid "Save updated query in report {%(id)s}"
-msgstr ""
+msgstr "更新されたクエリをレポート {%(id)s} に保存する"
 
 #: trac/ticket/templates/query.html:222
 msgid "Create new report from current query"
-msgstr ""
+msgstr "現在のクエリから新しいレポートを作成する"
 
 #: trac/ticket/templates/query.html:231
 msgid "Delete query"
@@ -3256,12 +3254,12 @@ msgstr "このページの唯一のバージョンであるため、削除する
 #: trac/wiki/templates/wiki_diff.html:16
 #, python-format
 msgid "Delete version %(old_version)d to version %(version)d"
-msgstr ""
+msgstr "バージョン %(old_version)d から %(version)d を削除"
 
 #: trac/wiki/templates/wiki_diff.html:17
 #, python-format
 msgid "Delete version %(version)d"
-msgstr ""
+msgstr "バージョン %(version)d を削除"
 
 #: trac/wiki/templates/wiki_edit.html:28
 msgid "Editing"
@@ -3339,10 +3337,9 @@ msgstr "この変更についてのコメント(省略可):"
 
 #: trac/wiki/templates/wiki_edit.html:117
 msgid "Page is read-only"
-msgstr "このページは書き込み禁止です"
+msgstr "このページを読み込み専用にする"
 
 #: trac/wiki/templates/wiki_edit.html:125
-#, fuzzy
 msgid "Merge changes"
 msgstr "マージする"
 
