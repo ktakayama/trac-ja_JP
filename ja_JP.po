@@ -3499,12 +3499,12 @@ msgstr "すでに %(user)s としてログイン中です。"
 #: trac/web/chrome.py:177 trac/web/chrome.py:185
 #, python-format
 msgid "Previous %(label)s"
-msgstr "前の %(label)s"
+msgstr "前の%(label)s"
 
 #: trac/web/chrome.py:197 trac/web/chrome.py:204
 #, python-format
 msgid "Next %(label)s"
-msgstr "次の %(label)s"
+msgstr "次の%(label)s"
 
 #: trac/web/chrome.py:787
 msgid "(unknown template location)"
@@ -3766,7 +3766,7 @@ msgid ""
 "Sorry, this page has been modified by somebody else since you started\n"
 "            editing. Your changes cannot be saved."
 msgstr ""
-"ページはあなたが編集を始めた時より後に他の人により変更されて\n"
+"ページはあなたが編集を始めた時より後に他の人により変更されて"
 "いるため、あなたの変更を保存することができません。"
 
 #: trac/wiki/templates/wiki_edit.html:75
