@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-05 06:55+0900\n"
+"PO-Revision-Date: 2009-04-05 06:59+0900\n"
 "Last-Translator: Jeroen Ruigrok van der Werven <asmodai@in-nomine.org>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -986,9 +986,9 @@ msgid "Invalid unified diff content"
 msgstr "diff内容が不正です"
 
 #: trac/mimeview/patch.py:165
-#, fuzzy, python-format
+#, python-format
 msgid "new file %(new)s"
-msgstr "レポートの実行に失敗しました: %(error)s"
+msgstr "新しいファイル %(new)s"
 
 #: trac/mimeview/patch.py:169
 #, python-format
@@ -1732,9 +1732,8 @@ msgid "TracGuide"
 msgstr "ヘルプ/ガイド"
 
 #: trac/templates/error.html:197
-#, fuzzy
 msgid "— The Trac User and Administration Guide"
-msgstr "? Tracユーザ/管理者ガイド"
+msgstr "- Tracユーザ/管理者ガイド"
 
 #: trac/templates/history_view.html:15
 msgid "Change History for"
@@ -2549,7 +2548,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:28
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件マッチ"
@@ -2770,9 +2769,8 @@ msgid "Create New Ticket"
 msgstr "チケットの新規作成"
 
 #: trac/ticket/templates/ticket.html:96 trac/ticket/templates/ticket.html:99
-#, fuzzy
 msgid "— at"
-msgstr "?"
+msgstr ""
 
 #: trac/ticket/templates/ticket.html:110
 msgid "Preview ("
@@ -2890,7 +2888,6 @@ msgid "Preview"
 msgstr "プレビュー"
 
 #: trac/ticket/templates/ticket.html:400
-#, fuzzy
 msgid "Create ticket"
 msgstr "チケットの新規作成"
 
@@ -2984,7 +2981,7 @@ msgid "Resyncing repository history... "
 msgstr ""
 
 #: trac/versioncontrol/admin.py:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] ""
