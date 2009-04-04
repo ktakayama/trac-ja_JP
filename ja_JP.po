@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-05 06:59+0900\n"
-"Last-Translator: Jeroen Ruigrok van der Werven <asmodai@in-nomine.org>\n"
+"PO-Revision-Date: 2009-04-05 07:20+0900\n"
+"Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "名称"
 
 #: trac/attachment.py:867
 msgid "Size"
-msgstr ""
+msgstr "Size"
 
 #: trac/attachment.py:867 trac/templates/history_view.html:28
 #: trac/versioncontrol/templates/revisionlog.html:95
@@ -307,12 +307,12 @@ msgstr ""
 #: trac/admin/console.py:249
 #, python-format
 msgid "No documentation found for '%(cmd)s'"
-msgstr ""
+msgstr "'%(cmd)s'のドキュメントは見つかりません"
 
 #: trac/admin/console.py:251
 #, python-format
 msgid "trac-admin - The Trac Administration Console %(version)s"
-msgstr ""
+msgstr "trac-admin - Trac管理コンソール %(version)s"
 
 #: trac/admin/console.py:255
 msgid "Usage: trac-admin </path/to/projenv> [command [subcommand] [option ...]]\n"
@@ -340,7 +340,7 @@ msgstr ""
 #: trac/admin/console.py:306
 #, python-format
 msgid "Project Name [%(default)s]> "
-msgstr ""
+msgstr "プロジェクト名 [%(default)s]> "
 
 #: trac/admin/console.py:308
 msgid ""
@@ -371,7 +371,7 @@ msgstr ""
 #: trac/admin/console.py:327
 #, python-format
 msgid "Repository type [%(default)s]> "
-msgstr ""
+msgstr "リポジトリの種類 [%(default)s]> "
 
 #: trac/admin/console.py:329
 msgid ""
@@ -383,20 +383,20 @@ msgstr ""
 
 #: trac/admin/console.py:334
 msgid "Path to repository [/path/to/repos]> "
-msgstr ""
+msgstr "リポジトリのパス [/path/to/repos]> "
 
 #: trac/admin/console.py:341
 #, python-format
 msgid "Initenv for '%(env)s' failed."
-msgstr ""
+msgstr "Initenv失敗: '%(env)s'"
 
 #: trac/admin/console.py:370
 msgid "Creating and Initializing Project"
-msgstr ""
+msgstr "プロジェクトの生成と初期化"
 
 #: trac/admin/console.py:389
 msgid " Installing default wiki pages"
-msgstr ""
+msgstr " デフォルトのWikiページのインストール"
 
 #: trac/admin/console.py:401
 msgid " Indexing repository"
@@ -450,7 +450,7 @@ msgstr ""
 #: trac/admin/console.py:508
 #, python-format
 msgid "non-ascii environment path '%(path)s' not supported."
-msgstr ""
+msgstr "ASCII文字以外のパス '%(path)s' はサポートしていません。"
 
 #: trac/admin/web_ui.py:66
 msgid "Admin"
@@ -993,7 +993,7 @@ msgstr "新しいファイル %(new)s"
 #: trac/mimeview/patch.py:169
 #, python-format
 msgid "deleted file %(deleted)s"
-msgstr ""
+msgstr "削除されたファイル %(deleted)s"
 
 #: trac/mimeview/patch.py:241
 msgid "this hunk was shorter than expected"
@@ -2214,7 +2214,7 @@ msgstr "レポートの実行に失敗しました: %(error)s"
 #: trac/ticket/report.py:259
 #, python-format
 msgid "When specified, the report number should be \"%(num)s\"."
-msgstr "番号を指定するとレポート番号は \\\"%(num)s\\\" になります。"
+msgstr "番号を指定するとレポート番号は \"%(num)s\" になります。"
 
 #: trac/ticket/report.py:310
 #, python-format
@@ -3013,7 +3013,7 @@ msgstr ""
 
 #: trac/versioncontrol/api.py:118
 msgid "Path"
-msgstr ""
+msgstr "パス"
 
 #: trac/versioncontrol/api.py:142
 #, python-format
@@ -3560,7 +3560,7 @@ msgstr "タイトル"
 
 #: trac/wiki/admin.py:154
 msgid "Edits"
-msgstr ""
+msgstr "編集"
 
 #: trac/wiki/admin.py:164
 msgid "Deleted pages"
@@ -3578,7 +3578,7 @@ msgstr "このページを参照する権限がありません"
 #: trac/wiki/formatter.py:140
 #, python-format
 msgid "HTML parsing error: %(message)s"
-msgstr ""
+msgstr "HTMLパースエラー: %(message)s"
 
 #: trac/wiki/formatter.py:144
 msgid "Error: Forbidden character sequence \"--\" in htmlcomment wiki code block"
@@ -3853,6 +3853,5 @@ msgstr "このバージョンを削除"
 msgid "Delete page"
 msgstr "このページを削除"
 
-#~ msgid "Command failed:"
-#~ msgstr ""
+
 
