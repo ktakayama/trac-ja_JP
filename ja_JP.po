@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-05 07:20+0900\n"
+"PO-Revision-Date: 2009-04-05 20:03+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -316,7 +316,7 @@ msgstr "trac-admin - Trac管理コンソール %(version)s"
 
 #: trac/admin/console.py:255
 msgid "Usage: trac-admin </path/to/projenv> [command [subcommand] [option ...]]\n"
-msgstr ""
+msgstr "Usage: trac-admin </path/to/projenv> [コマンド [サブコマンド] [オプション ...]]\n"
 
 #: trac/admin/console.py:258
 msgid "Invoking trac-admin without command starts interactive mode.\n"
@@ -355,7 +355,7 @@ msgstr ""
 #: trac/admin/console.py:316
 #, python-format
 msgid "Database connection string [%(default)s]> "
-msgstr ""
+msgstr "データベース接続文字列 [%(default)s]> "
 
 #: trac/admin/console.py:318
 msgid ""
@@ -1646,7 +1646,7 @@ msgstr ""
 
 #: trac/templates/error.html:128
 msgid "Found a bug in Trac?"
-msgstr ""
+msgstr "Tracのバグを見つけましたか?"
 
 #: trac/templates/error.html:129
 msgid ""
@@ -3004,7 +3004,7 @@ msgstr "チェンジセット %(rev)s"
 
 #: trac/versioncontrol/api.py:112
 msgid "Directory"
-msgstr ""
+msgstr "ディレクトリ"
 
 #: trac/versioncontrol/api.py:116
 #, python-format
@@ -3063,21 +3063,21 @@ msgstr ""
 #: trac/versioncontrol/svn_fs.py:305
 #, python-format
 msgid "Subversion >= 1.0 required: Found %(version)s"
-msgstr ""
+msgstr "Subversion 1.0以上が必要: Found %(version)s"
 
 #: trac/versioncontrol/svn_fs.py:387
 msgid "No svn:externals configured in trac.ini"
-msgstr ""
+msgstr "trac.iniにsvn:externalsの設定がありません"
 
 #: trac/versioncontrol/svn_fs.py:422
 #, python-format
 msgid "%(path)s does not appear to be a Subversion repository."
-msgstr ""
+msgstr "%(path)s はSubversionのリポジトリではないみたいです。"
 
 #: trac/versioncontrol/svn_fs.py:429
 #, python-format
 msgid "Couldn't open Subversion repository %(path)s: %(svn_error)s"
-msgstr ""
+msgstr "Subversionのリポジトリ %(path)s が開けません: %(svn_error)s"
 
 #: trac/versioncontrol/svn_fs.py:684
 #, python-format
