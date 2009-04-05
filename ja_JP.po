@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-05 20:03+0900\n"
+"PO-Revision-Date: 2009-04-06 03:48+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -188,11 +188,11 @@ msgstr "'%(dest)s'が存在するため上書きできません"
 #: trac/env.py:674
 #, python-format
 msgid "Hotcopying %(src)s to %(dst)s ..."
-msgstr "%(src)s から %(dst)s へ、ホットコピーを実施していません"
+msgstr "%(src)s から %(dst)s へ、ホットコピーを実施しています"
 
 #: trac/env.py:689
 msgid "The following errors happened while copying the environment:"
-msgstr "コピー中に以下のエラーが発生しました"
+msgstr "コピー中に以下のエラーが発生しました:"
 
 #: trac/env.py:700
 msgid "Hotcopy done."
@@ -325,7 +325,7 @@ msgstr ""
 #: trac/admin/console.py:296
 #, python-format
 msgid "Creating a new Trac environment at %(envname)s"
-msgstr ""
+msgstr "新規Trac環境 %(envname)s の生成"
 
 #: trac/admin/console.py:298
 msgid ""
@@ -351,6 +351,11 @@ msgid ""
 " PostgreSQL database (check the Trac documentation for the exact\n"
 " connection string syntax).\n"
 msgstr ""
+"使用するデータベースへの接続文字列を指定してください。\n"
+"デフォルトでは、localにSQLiteデータベースを作成します。\n"
+"既に存在するPostgreSQLデータベースを使うこともできます。\n"
+"(Tracでは、接続文字列は厳密に表記する必要があります。\n"
+"詳細はTracのドキュメントを参照してください)\n"
 
 #: trac/admin/console.py:316
 #, python-format
@@ -400,7 +405,7 @@ msgstr " デフォルトのWikiページのインストール"
 
 #: trac/admin/console.py:401
 msgid " Indexing repository"
-msgstr ""
+msgstr "リポジトリのインデックス作成"
 
 #: trac/admin/console.py:404
 msgid ""
@@ -450,7 +455,7 @@ msgstr ""
 #: trac/admin/console.py:508
 #, python-format
 msgid "non-ascii environment path '%(path)s' not supported."
-msgstr "ASCII文字以外のパス '%(path)s' はサポートしていません。"
+msgstr "non-ASCII文字のパス '%(path)s' はサポートしていません。"
 
 #: trac/admin/web_ui.py:66
 msgid "Admin"
@@ -1982,7 +1987,7 @@ msgstr ""
 #: trac/ticket/admin.py:769
 #, python-format
 msgid "Ticket %(num)s and all associated data removed."
-msgstr ""
+msgstr "チケット %(num)s とそれに関するデータを削除しました。"
 
 #: trac/ticket/api.py:267
 msgid "Created"
@@ -1991,12 +1996,12 @@ msgstr "作成されました"
 #: trac/ticket/api.py:428
 #, python-format
 msgid "Comment %(cnum)s for Ticket #%(id)s"
-msgstr ""
+msgstr "チケット #%(id)s のためのコメント %(cnum)s"
 
 #: trac/ticket/api.py:449
 #, python-format
 msgid "Ticket #%(shortname)s"
-msgstr ""
+msgstr "チケット #%(shortname)s"
 
 #: trac/ticket/default_workflow.py:222
 msgid "Current state no longer exists"
@@ -3018,7 +3023,7 @@ msgstr "パス"
 #: trac/versioncontrol/api.py:142
 #, python-format
 msgid "Unsupported version control system \"%(name)s\": \"%(error)s\" "
-msgstr ""
+msgstr "サポートされていないバージョン管理システム \"%(name)s\": \"%(error)s\""
 
 #: trac/versioncontrol/api.py:146
 #, python-format
