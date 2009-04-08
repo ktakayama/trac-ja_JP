@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-09 07:38+0900\n"
+"PO-Revision-Date: 2009-04-09 07:44+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -2553,7 +2553,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:28
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件マッチ"
@@ -2986,7 +2986,7 @@ msgid "Resyncing repository history... "
 msgstr ""
 
 #: trac/versioncontrol/admin.py:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] ""
