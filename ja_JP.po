@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-09 06:10+0900\n"
+"PO-Revision-Date: 2009-04-09 07:38+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -133,7 +133,7 @@ msgid "Date"
 msgstr "更新日時"
 
 #: trac/attachment.py:868 trac/templates/attachment.html:86
-#: trac/ticket/api.py:233 trac/ticket/templates/ticket.html:170
+#: trac/ticket/api.py:214 trac/ticket/templates/ticket.html:170
 msgid "Description"
 msgstr "説明"
 
@@ -142,26 +142,26 @@ msgstr "説明"
 msgid "File '%(name)s' exists"
 msgstr "ファイル %(name)s はすでに登録されています。"
 
-#: trac/env.py:421
+#: trac/env.py:422
 msgid "Can only backup sqlite databases"
 msgstr "sqliteデータベースのみバックアップが可能です"
 
-#: trac/env.py:506
+#: trac/env.py:507
 msgid "Database newer than Trac version"
 msgstr "Tracのバージョンよりもデータベースのバージョンが新しいです。"
 
-#: trac/env.py:518
+#: trac/env.py:519
 #, python-format
 msgid "No upgrade module for version %(num)i (%(version)s.py)"
 msgstr "(%(version)s.py)のバージョン %(num)i に対応するアップグレードモジュールはありません"
 
-#: trac/env.py:563
+#: trac/env.py:564
 msgid ""
 "Missing environment variable \"TRAC_ENV\". Trac requires this variable to"
 " point to a valid Trac environment."
 msgstr "環境変数\"TRAC_ENV\"が見つかりません。Tracではこの変数を設定する必要があります。"
 
-#: trac/env.py:597
+#: trac/env.py:600
 #, python-format
 msgid ""
 "The Trac Environment needs to be upgraded.\n"
@@ -172,41 +172,41 @@ msgstr ""
 "\n"
 "\"trac-admin %(path)s upgrade\"を実行してください"
 
-#: trac/env.py:631
+#: trac/env.py:634
 msgid "Copying resources from:"
 msgstr "次の場所からリソースをコピー中です:"
 
-#: trac/env.py:647
+#: trac/env.py:650
 msgid "Creating scripts."
 msgstr "スクリプトを作成しています。"
 
-#: trac/env.py:664
+#: trac/env.py:667
 #, python-format
 msgid "hotcopy can't overwrite existing '%(dest)s'"
 msgstr "'%(dest)s'が存在するため上書きできません"
 
-#: trac/env.py:674
+#: trac/env.py:677
 #, python-format
 msgid "Hotcopying %(src)s to %(dst)s ..."
 msgstr "%(src)s から %(dst)s へ、ホットコピーを実施しています"
 
-#: trac/env.py:689
+#: trac/env.py:692
 msgid "The following errors happened while copying the environment:"
 msgstr "コピー中に以下のエラーが発生しました:"
 
-#: trac/env.py:700
+#: trac/env.py:703
 msgid "Hotcopy done."
 msgstr "ホットコピーが終了しました。"
 
-#: trac/env.py:705 trac/admin/api.py:126
+#: trac/env.py:708 trac/admin/api.py:126
 msgid "Invalid arguments"
 msgstr "不正な引数"
 
-#: trac/env.py:708
+#: trac/env.py:711
 msgid "Database is up to date, no upgrade necessary."
 msgstr "データベースは最新です、更新の必要はありません。"
 
-#: trac/env.py:716
+#: trac/env.py:719
 #, python-format
 msgid ""
 "Backup failed with '%(msg)s'.\n"
@@ -215,7 +215,7 @@ msgstr ""
 "'%(msg)s' によりバックアップが失敗しました。\n"
 "'--no-backup' を付けて、バックアップをせずにアップグレードしてください"
 
-#: trac/env.py:721
+#: trac/env.py:724
 msgid "Upgrade done."
 msgstr "アップグレードが終了しました。"
 
@@ -272,7 +272,7 @@ msgstr "Available actions:"
 msgid "Group names must be in lower case and actions in upper case"
 msgstr "Group names must be in lower case and actions in upper case"
 
-#: trac/resource.py:328
+#: trac/resource.py:329
 #, python-format
 msgid " at version %(version)s"
 msgstr ""
@@ -1541,7 +1541,7 @@ msgstr "追加"
 msgid "Removed"
 msgstr "削除"
 
-#: trac/templates/diff_view.html:62 trac/ticket/api.py:269
+#: trac/templates/diff_view.html:62 trac/ticket/api.py:250
 #: trac/versioncontrol/templates/changeset.html:157
 #: trac/versioncontrol/templates/revisionlog.html:76 trac/wiki/admin.py:154
 msgid "Modified"
@@ -1989,16 +1989,16 @@ msgstr ""
 msgid "Ticket %(num)s and all associated data removed."
 msgstr "チケット %(num)s とそれに関するデータを削除しました。"
 
-#: trac/ticket/api.py:267
+#: trac/ticket/api.py:248
 msgid "Created"
 msgstr "作成されました"
 
-#: trac/ticket/api.py:428
+#: trac/ticket/api.py:404
 #, python-format
 msgid "Comment %(cnum)s for Ticket #%(id)s"
 msgstr "チケット #%(id)s のためのコメント %(cnum)s"
 
-#: trac/ticket/api.py:449
+#: trac/ticket/api.py:425
 #, python-format
 msgid "Ticket #%(shortname)s"
 msgstr "チケット #%(shortname)s"
@@ -2553,7 +2553,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:28
 #: trac/ticket/templates/query_results.html:29
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件マッチ"
@@ -2986,7 +2986,7 @@ msgid "Resyncing repository history... "
 msgstr ""
 
 #: trac/versioncontrol/admin.py:58
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] ""
@@ -3084,14 +3084,14 @@ msgstr "%(path)s はSubversionのリポジトリではないみたいです。"
 msgid "Couldn't open Subversion repository %(path)s: %(svn_error)s"
 msgstr "Subversionのリポジトリ %(path)s が開けません: %(svn_error)s"
 
-#: trac/versioncontrol/svn_fs.py:684
+#: trac/versioncontrol/svn_fs.py:683
 #, python-format
 msgid ""
 "Diff mismatch: Base is a %(oldnode)s (%(oldpath)s in revision %(oldrev)s)"
 " and Target is a %(newnode)s (%(newpath)s in revision %(newrev)s)."
 msgstr ""
 
-#: trac/versioncontrol/svn_fs.py:837
+#: trac/versioncontrol/svn_fs.py:836
 #, python-format
 msgid "svn blame failed on %(path)s: %(error)s"
 msgstr "svn blame の実行に失敗しました %(path)s: %(error)s"
@@ -3576,7 +3576,7 @@ msgstr "削除されたページ"
 msgid "'%(name)s' is not a directory"
 msgstr "%(name)s はディレクトリではありません。"
 
-#: trac/wiki/api.py:343 trac/wiki/templates/wiki_view.html:53
+#: trac/wiki/api.py:317 trac/wiki/templates/wiki_view.html:53
 msgid "no permission to view this wiki page"
 msgstr "このページを参照する権限がありません"
 
