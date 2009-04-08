@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-04-06 03:48+0900\n"
+"PO-Revision-Date: 2009-04-09 06:10+0900\n"
 "Last-Translator: IWAI, Masaharu <iwai@alib.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -248,7 +248,7 @@ msgstr "この操作を行なうには %(perm)s 権限が必要です。"
 
 #: trac/perm.py:54
 msgid "Insufficient privileges to perform this operation."
-msgstr "この操作を行なうには、権限が不足しています。"
+msgstr "この操作を行う権限がありません。"
 
 #: trac/perm.py:320
 #, python-format
@@ -2541,7 +2541,7 @@ msgstr "期日は設定されていません"
 #: trac/ticket/templates/milestone_view.html:47
 #: trac/timeline/templates/timeline.html:44
 msgid "by"
-msgstr ""
+msgstr "更新者: "
 
 #: trac/ticket/templates/milestone_view.html:61
 msgid "(none)"
@@ -3227,7 +3227,7 @@ msgstr "前"
 
 #: trac/versioncontrol/templates/changeset.html:109
 msgid "Message:"
-msgstr "メッセージ:"
+msgstr "ログメッセージ:"
 
 #: trac/versioncontrol/templates/changeset.html:121
 msgid "Location:"
@@ -3702,11 +3702,11 @@ msgstr "Wikiページの更新"
 #. TRANSLATOR: wiki page
 #: trac/wiki/web_ui.py:602
 msgid " edited"
-msgstr "が更新されました"
+msgstr "が更新されました。"
 
 #: trac/wiki/web_ui.py:602
 msgid " created"
-msgstr "が登録されました"
+msgstr "が登録されました。"
 
 #: trac/wiki/templates/wiki_delete.html:22
 msgid "Delete"
@@ -3857,6 +3857,4 @@ msgstr "このバージョンを削除"
 #: trac/wiki/templates/wiki_view.html:103
 msgid "Delete page"
 msgstr "このページを削除"
-
-
 
