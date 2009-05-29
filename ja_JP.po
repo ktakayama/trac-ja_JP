@@ -107,7 +107,6 @@ msgstr "オリジナルフォーマット"
 #: trac/attachment.py:744 trac/attachment.py:750 trac/templates/macros.html:164
 #: trac/templates/macros.html:165 trac/ticket/templates/ticket.html:58
 #: trac/ticket/templates/ticket.html:59
-#, fuzzy
 msgid "Download"
 msgstr "ダウンロード"
 
@@ -750,11 +749,13 @@ msgid "Log file:"
 msgstr "ログファイル:"
 
 #: trac/admin/templates/admin_logging.html:48
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you specify a relative path, the log file will be stored inside the\n"
 "            [1:log] directory of the project environment ([2:%(dir)s])."
-msgstr "相対パスを指定した場合は、プロジェクトディレクトリの"
+msgstr ""
+"相対パスを指定した場合は、プロジェクトディレクトリの\n"
+"[1:log] ディレクトリに作成されます。([2:%(dir)s])"
 
 #: trac/admin/templates/admin_milestones.html:10 trac/ticket/roadmap.py:835
 msgid "Milestones"
@@ -1182,7 +1183,6 @@ msgid "Enable access keys"
 msgstr "アクセスキーを有効にする"
 
 #: trac/prefs/templates/prefs_keybindings.html:21
-#, fuzzy
 msgid ""
 "This site provides keyboard shortcuts for\n"
 "      faster access to certain functions of this site. As these shortcuts"
@@ -1195,7 +1195,9 @@ msgstr ""
 "このサイトではよく使用される機能に速やかにアクセスするための\n"
 "キーボード・ショートカットがいくつか定義されています。これらのショートカットが\n"
 "デスクトップシステムやブラウザが提供するものと衝突することがあるため\n"
-"標準では無効となっています。アクセスキーに関しての詳細は"
+"標準では無効となっています。アクセスキーに関しての詳細は\n"
+"[1:TracAccessibility]\n"
+"を参照してください。"
 
 #: trac/prefs/templates/prefs_language.html:14
 msgid "Language:"
@@ -1575,6 +1577,10 @@ msgid ""
 "                    Trac administrator] with the information needed to \n"
 "                reproduce the issue."
 msgstr ""
+"内部エラーが発生しました。\n"
+"サイトの"
+"[1:Trac 管理者]"
+"に連絡し、不具合の再現方法等を伝えることをお勧めします。"
 
 #: trac/templates/error.html:114
 msgid "To that end, you could"
@@ -1582,7 +1588,7 @@ msgstr "そのためにはこのサイトでチケットを"
 
 #: trac/templates/error.html:114
 msgid "a ticket."
-msgstr ""
+msgstr "できます。"
 
 #: trac/templates/error.html:116
 msgid "The action that triggered the error was:"
@@ -1615,7 +1621,6 @@ msgstr ""
 "Tracチームに報告することを検討してください。"
 
 #: trac/templates/error.html:131
-#, fuzzy
 msgid ""
 "Before you do that, though, please first try\n"
 "                [1:[2:searching]\n"
@@ -1626,16 +1631,22 @@ msgid ""
 "                and configuration of Trac, please try the\n"
 "                [3:mailing list]\n"
 "                instead of filing a ticket."
-msgstr "実際に報告を行なう前に、既に同じような不具合が報告されていないか[1:検索]してください。またTracのインストールや設定に関する質問は、チケットを作成するのではなく[2:メーリングリスト]に投稿するのがよいでしょう。"
+msgstr ""
+"実際に報告を行なう前に、\n"
+"既に[1:同じような不具合が報告されていないか[2:検索]]してください。\n"
+"またTracのインストールや設定に関する質問は、\n"
+"チケットを作成するのではなく[3:メーリングリスト]に投稿するのがよいでしょう。"
 
 #: trac/templates/error.html:140
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Otherwise, please %(create)s a new ticket at\n"
 "                the Trac project site, where you can describe the problem"
 " and\n"
 "                explain how to reproduce it."
-msgstr "してください。"
+msgstr ""
+"そうでなければ、Tracプロジェクトのサイトにて\n"
+"不具合の詳細と再現手順を書き添えた新しいチケットを %(create)s してください。"
 
 #: trac/templates/error.html:145
 msgid "Python Traceback"
@@ -2409,12 +2420,13 @@ msgid "Delete milestone"
 msgstr "マイルストーンを削除"
 
 #: trac/ticket/templates/milestone_delete.html:45
-#, fuzzy
 msgid ""
 "[1:Note:] See\n"
 "      [2:TracRoadmap] for help on using\n"
 "      the roadmap."
-msgstr "を参照してください。"
+msgstr ""
+"[1:※] 詳しい使い方は\n"
+"[2:TracRoadmap] を参照してください。"
 
 #: trac/ticket/templates/milestone_edit.html:11
 #: trac/ticket/templates/milestone_edit.html:37
@@ -2451,12 +2463,13 @@ msgstr "登録"
 #: trac/ticket/templates/milestone_edit.html:98
 #: trac/ticket/templates/milestone_view.html:106
 #: trac/ticket/templates/roadmap.html:70
-#, fuzzy
 msgid ""
 "[1:Note:] See\n"
 "        [2:TracRoadmap] for help on using\n"
 "        the roadmap."
-msgstr "を参照してください。"
+msgstr ""
+"[1:※] 詳しい使い方は\n"
+"[2:TracRoadmap] を参照してください。"
 
 #: trac/ticket/templates/milestone_view.html:11
 #: trac/ticket/templates/milestone_view.html:23
@@ -2499,10 +2512,10 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:29
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
-msgstr[0] "%(num)s 件マッチ"
+msgstr[0] "%(num)s 件が該当"
 
 #: trac/ticket/templates/query.html:39
 msgid "Filters"
@@ -2602,11 +2615,10 @@ msgstr "このレポートを削除"
 #: trac/ticket/templates/report_delete.html:26
 #: trac/ticket/templates/report_edit.html:48
 #: trac/ticket/templates/report_view.html:218
-#, fuzzy
 msgid ""
 "[1:Note:]\n"
 "        See [2:TracReports] for help on using and creating reports."
-msgstr "を参照してください。"
+msgstr "[1:※] 詳しい使い方は [2:TracReports] を参照してください。"
 
 #: trac/ticket/templates/report_edit.html:21
 msgid "Report Title:"
@@ -2617,11 +2629,12 @@ msgid "Description: (you may use [1:WikiFormatting] here)"
 msgstr "詳細 ([1:WikiFormatting] が使用可能)"
 
 #: trac/ticket/templates/report_edit.html:36
-#, fuzzy
 msgid ""
 "Query for Report: (can be either SQL or, if starting with [1:query:], a "
 "[2:TracQuery] expression)"
-msgstr "レポートのクエリ: (SQL文または"
+msgstr ""
+"レポートのクエリ: (SQL文または [1:query:] で始まる "
+"[2:TracQuery] が使用可能)"
 
 #: trac/ticket/templates/report_edit.html:41
 msgid "Save report"
@@ -2771,9 +2784,9 @@ msgid "follow-up"
 msgstr "フォローアップ"
 
 #: trac/ticket/templates/ticket.html:227
-#, fuzzy, python-format
+#, python-format
 msgid "Changed %(date)s ago by %(author)s"
-msgstr "%(path)s のチェンジセット %(id)s"
+msgstr "更新者: %(author)s (%(date)s 前)"
 
 #: trac/ticket/templates/ticket.html:246
 msgid "Add/Change #"
@@ -2823,12 +2836,11 @@ msgid "Create ticket"
 msgstr "チケットの新規作成"
 
 #: trac/ticket/templates/ticket.html:408
-#, fuzzy
 msgid ""
 "[1:Note:] See\n"
 "        [2:TracTickets] for help on using\n"
 "        tickets."
-msgstr "を参照してください。"
+msgstr "[1:※] 詳しい使い方は [2:TracTickets] を参照してください。"
 
 #: trac/ticket/templates/ticket_notify_email.txt:9
 msgid "Changes (by"
@@ -2883,11 +2895,10 @@ msgid "Yesterday"
 msgstr "昨日"
 
 #: trac/timeline/templates/timeline.html:54
-#, fuzzy
 msgid ""
 "[1:Note:] See [2:TracTimeline]\n"
 "        for information about the timeline view."
-msgstr "を参照してください。"
+msgstr "[1:※] 詳しい使い方は [2:TracTimeline] を参照してください。"
 
 #: trac/util/presentation.py:254
 #, python-format
@@ -2909,10 +2920,10 @@ msgid "Resyncing repository history... "
 msgstr ""
 
 #: trac/versioncontrol/admin.py:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
-msgstr[0] ""
+msgstr[0] "%(num)s リビジョンのキャッシュがあります。"
 
 #: trac/versioncontrol/admin.py:60
 msgid "Done."
@@ -3068,11 +3079,10 @@ msgid ""
 msgstr ""
 
 #: trac/versioncontrol/templates/browser.html:151
-#, fuzzy
 msgid ""
 "[1:Note:] See [2:TracBrowser]\n"
 "        for help on using the browser."
-msgstr "を参照してください。"
+msgstr "[1:※] 詳しい使い方は [2:TracBrowser] を参照してください。"
 
 #: trac/versioncontrol/templates/browser.html:163
 msgid "View changes..."
@@ -3285,11 +3295,10 @@ msgid "Diff from Old Revision to New Revision (select them above)"
 msgstr "上で選択した2つのリビジョンの比較"
 
 #: trac/versioncontrol/templates/revisionlog.html:176
-#, fuzzy
 msgid ""
 "[1:Note:] See [2:TracRevisionLog]\n"
 "        for help on using the revision log."
-msgstr "を参照して下さい。"
+msgstr "[1:※] 詳しい使い方は [2:TracRevisionLog] を参照してください。"
 
 #: trac/versioncontrol/templates/revisionlog.txt:1
 msgid ""
@@ -3422,7 +3431,6 @@ msgid "Older Revisions"
 msgstr "古いリビジョン"
 
 #: trac/versioncontrol/web_ui/util.py:61
-#, fuzzy
 msgid "search"
 msgstr "検索"
 
@@ -3486,9 +3494,9 @@ msgid "'%(name)s' is not a file"
 msgstr "%(name)s はファイルではありません。"
 
 #: trac/wiki/admin.py:129
-#, fuzzy, python-format
+#, python-format
 msgid "  %(page)s imported from %(filename)s"
-msgstr " %(filename)s からインポートされた %(page)s"
+msgstr "  %(page)s インポート元 %(filename)s"
 
 #: trac/wiki/admin.py:155
 msgid "Title"
@@ -3788,113 +3796,4 @@ msgstr "このバージョンを削除"
 #: trac/wiki/templates/wiki_view.html:103
 msgid "Delete page"
 msgstr "このページを削除"
-
-#~ msgid "Can only backup sqlite databases"
-#~ msgstr "sqliteデータベースのみバックアップが可能です"
-
-#~ msgid "log"
-#~ msgstr "log"
-
-#~ msgid "directory of the project environment ("
-#~ msgstr "ディレクトリに作成されます。("
-
-#~ msgid "TracAccessibility"
-#~ msgstr "TracAccessibility"
-
-#~ msgid "for more information on access keys."
-#~ msgstr "を参照してください。"
-
-#~ msgid "Note:"
-#~ msgstr "※ "
-
-#~ msgid "See"
-#~ msgstr "詳しい使い方は"
-
-#~ msgid "TracSearch"
-#~ msgstr "TracSearch"
-
-#~ msgid "for help on searching."
-#~ msgstr "を参照してください。"
-
-#~ msgid ""
-#~ "There was an internal error in Trac. It is recommended\n"
-#~ "              that you inform your local"
-#~ msgstr ""
-#~ "内部エラーが発生しました。\n"
-#~ "サイトの"
-
-#~ msgid ""
-#~ "Trac\n"
-#~ "              administrator"
-#~ msgstr "Trac 管理者"
-
-#~ msgid ""
-#~ "and give him all the information he needs to\n"
-#~ "              reproduce the issue."
-#~ msgstr "に連絡し、不具合の再現方法等を伝えることをお勧めします。"
-
-#~ msgid "Otherwise, please"
-#~ msgstr ""
-#~ "そうでなければ、Tracプロジェクトのサイトにて\n"
-#~ "不具合の詳細と再現手順を書き添えた新しいチケットを"
-
-#~ msgid "TracRoadmap"
-#~ msgstr "TracRoadmap"
-
-#~ msgid "TracQuery"
-#~ msgstr "TracQuery"
-
-#~ msgid "for help on using queries."
-#~ msgstr "を参照してください。"
-
-#~ msgid "TracReports"
-#~ msgstr "TracReports"
-
-#~ msgid "query:"
-#~ msgstr "query:"
-
-#~ msgid ", a"
-#~ msgstr "で始まる"
-
-#~ msgid "expression)"
-#~ msgstr "表記が使用可能)"
-
-#~ msgid "Opened"
-#~ msgstr " "
-
-#~ msgid "ago"
-#~ msgstr "前に作成"
-
-#~ msgid "Last modified"
-#~ msgstr "最終更新は"
-
-#~ msgid "Changed"
-#~ msgstr " "
-
-#~ msgid "ago by"
-#~ msgstr "前に更新:"
-
-#~ msgid "TracTickets"
-#~ msgstr "TracTickets"
-
-#~ msgid "TracTimeline"
-#~ msgstr "TracTimeline"
-
-#~ msgid "Revision"
-#~ msgstr "リビジョン"
-
-#~ msgid "(checked in by"
-#~ msgstr "(更新者: "
-
-#~ msgid "TracBrowser"
-#~ msgstr "TracBrowser"
-
-#~ msgid "TracChangeset"
-#~ msgstr "TracChangeset"
-
-#~ msgid "for help on using the diff feature."
-#~ msgstr "を参照して下さい。"
-
-#~ msgid "TracRevisionLog"
-#~ msgstr "TracRevisionLog"
 
