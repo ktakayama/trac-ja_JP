@@ -2740,16 +2740,16 @@ msgstr "更新者:"
 #: trac/ticket/templates/ticket.html:131
 #, python-format
 msgid "Opened %(created)s ago"
-msgstr ""
+msgstr "登録: %(created)s 前"
 
 #: trac/ticket/templates/ticket.html:132
 #, python-format
 msgid "Last modified %(modified)s ago"
-msgstr ""
+msgstr "最終更新: %(modified)s 前"
 
 #: trac/ticket/templates/ticket.html:133
 msgid "(ticket not yet created)"
-msgstr ""
+msgstr "(まだ作成されていません)"
 
 #: trac/ticket/templates/ticket.html:142
 msgid "Reported by:"
