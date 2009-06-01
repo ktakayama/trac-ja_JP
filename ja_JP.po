@@ -2053,11 +2053,11 @@ msgstr "表示件数 %(max)s は不正です。"
 
 #: trac/ticket/query.py:130
 msgid "Query filter requires field and constraints separated by a \"=\""
-msgstr ""
+msgstr "各フィルタは、フィールドの名前と条件が \"=\" で区切られている必要があります"
 
 #: trac/ticket/query.py:143
 msgid "Query filter requires field name"
-msgstr ""
+msgstr "フィルタには、フィールド名が含まれている必要があります"
 
 #: trac/ticket/query.py:273
 #, python-format
@@ -2095,7 +2095,7 @@ msgstr "は次と等しくない"
 #: trac/ticket/query.py:695 trac/ticket/report.py:332
 #, python-format
 msgid "Page %(num)d"
-msgstr ""
+msgstr "ページ %(num)d"
 
 #: trac/ticket/query.py:744 trac/ticket/report.py:523 trac/ticket/web_ui.py:151
 #: trac/timeline/web_ui.py:216 trac/versioncontrol/web_ui/log.py:240
