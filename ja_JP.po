@@ -1290,6 +1290,8 @@ msgid ""
 "[1:Note:] See [2:TracSearch]\n"
 "        for help on searching."
 msgstr ""
+"[1:※] 詳しい使い方は\n"
+"[2:TracSearch] を参照してください。"
 
 #: trac/templates/about.html:25
 msgid "Trac: Integrated SCM & Project Management"
@@ -2574,6 +2576,8 @@ msgid ""
 "[1:Note:] See [2:TracQuery]\n"
 "        for help on using queries."
 msgstr ""
+"[1:※] 詳しい使い方は\n"
+"[2:TracQuery] を参照してください。"
 
 #: trac/ticket/templates/query_results.html:44
 msgid "No tickets found"
@@ -3213,6 +3217,8 @@ msgid ""
 "        [2:TracChangeset]\n"
 "        for help on using the diff feature."
 msgstr ""
+"[1:※] 詳しい使い方は\n"
+"[2:TracChangeset] を参照してください。"
 
 #: trac/versioncontrol/templates/dir_entries.html:17
 msgid "View Revision Log"
