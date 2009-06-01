@@ -1686,7 +1686,7 @@ msgstr "\", 行"
 
 #: trac/templates/error.html:181
 msgid "Switch to plain text view"
-msgstr ""
+msgstr "プレーンテキストで表示"
 
 #: trac/templates/error.html:184
 msgid "System Information:"
