@@ -175,7 +175,7 @@ msgid ""
 "\n"
 "Run \"trac-admin %(path)s upgrade\""
 msgstr ""
-"このTrac環境はアップグレードをする必要があります\n"
+"このTrac Environmentはアップグレードをする必要があります\n"
 "\n"
 "\"trac-admin %(path)s upgrade\"を実行してください"
 
@@ -305,7 +305,7 @@ msgstr ""
 
 #: trac/admin/console.py:131
 msgid "Failed to open environment."
-msgstr ""
+msgstr "Environmentが開けません。"
 
 #: trac/admin/console.py:198
 msgid "Completion error:"
@@ -332,7 +332,7 @@ msgstr ""
 #: trac/admin/console.py:296
 #, python-format
 msgid "Creating a new Trac environment at %(envname)s"
-msgstr "新規Trac環境 %(envname)s の生成"
+msgstr "新規Trac Environment %(envname)s の生成"
 
 #: trac/admin/console.py:298
 msgid ""
