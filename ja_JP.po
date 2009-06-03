@@ -113,7 +113,7 @@ msgstr "ダウンロード"
 #: trac/attachment.py:844
 #, python-format
 msgid "Invalid resource identifier '%(id)s'"
-msgstr ""
+msgstr "'%(id)s' は正しい識別子ではありません"
 
 #: trac/attachment.py:880 trac/admin/templates/admin_components.html:80
 #: trac/admin/templates/admin_enums.html:47
@@ -1428,7 +1428,7 @@ msgstr "プロパティ"
 #: trac/templates/diff_div.html:69 trac/ticket/templates/ticket.html:64
 #: trac/versioncontrol/templates/changeset.html:32
 msgid "to"
-msgstr ""
+msgstr "："
 
 #: trac/templates/diff_div.html:74
 msgid "Differences"
@@ -1915,7 +1915,7 @@ msgstr "バージョンが選択されていません"
 
 #: trac/ticket/admin.py:519
 msgid "Time"
-msgstr ""
+msgstr "日時"
 
 #: trac/ticket/admin.py:591
 #, python-format
@@ -1933,16 +1933,16 @@ msgstr "順序数はユニークでなくてはなりません"
 
 #: trac/ticket/admin.py:685
 msgid "Possible Values"
-msgstr ""
+msgstr "名称"
 
 #: trac/ticket/admin.py:707
 #, python-format
 msgid "Invalid up/down value: %(value)s"
-msgstr ""
+msgstr "up/down 以外の値です: %(value)s"
 
 #: trac/ticket/admin.py:773
 msgid "<number> must be a number"
-msgstr ""
+msgstr "<number> は数値の必要があります"
 
 #: trac/ticket/admin.py:778
 #, python-format
@@ -2705,7 +2705,7 @@ msgstr "の変更:"
 #: trac/ticket/templates/ticket.html:66
 #: trac/versioncontrol/templates/browser.html:135
 msgid "set to"
-msgstr "に新規に設定しました:"
+msgstr "の指定:"
 
 #: trac/ticket/templates/ticket.html:70
 msgid "deleted"
@@ -3134,7 +3134,7 @@ msgstr "更新内容: "
 #: trac/versioncontrol/templates/changeset.html:31
 #: trac/versioncontrol/templates/changeset.html:33
 msgid "at"
-msgstr ""
+msgstr "の"
 
 #: trac/versioncontrol/templates/changeset.html:32
 #: trac/versioncontrol/templates/changeset.html:34
