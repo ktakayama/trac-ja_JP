@@ -1965,7 +1965,7 @@ msgstr "チケット #%(shortname)s"
 
 #: trac/ticket/default_workflow.py:222
 msgid "Current state no longer exists"
-msgstr ""
+msgstr "現在のステータスは破棄されます"
 
 #: trac/ticket/default_workflow.py:224
 msgid "The ticket will be disowned"
@@ -1983,7 +1983,7 @@ msgstr "担当者を %(current_owner)s から %(selected_owner)s に変更しま
 
 #: trac/ticket/default_workflow.py:253
 msgid "to "
-msgstr ""
+msgstr "： "
 
 #: trac/ticket/default_workflow.py:261
 #, python-format
@@ -1995,6 +1995,8 @@ msgid ""
 "Your workflow attempts to set a resolution but none is defined "
 "(configuration issue, please contact your Trac admin)."
 msgstr ""
+"ワークフローによる解決の種類が、ただしく定められていません。"
+"(設定に関する問題なので、Trac管理者へお問い合わせください)"
 
 #: trac/ticket/default_workflow.py:277
 #, python-format
@@ -2012,7 +2014,7 @@ msgstr "次のステータスは '%(name)s' です"
 
 #: trac/ticket/model.py:140
 msgid "Multi-values fields not supported yet"
-msgstr ""
+msgstr "複数の値のフィールドは、まだサポートされていません"
 
 #: trac/ticket/model.py:391
 #, python-format
@@ -2026,11 +2028,11 @@ msgstr "コンポーネント %(name)s は存在しません。 "
 
 #: trac/ticket/model.py:772
 msgid "Open (by due date)"
-msgstr ""
+msgstr "進行中 (期日有)"
 
 #: trac/ticket/model.py:773
 msgid "Open (no due date)"
-msgstr ""
+msgstr "進行中 (期日無)"
 
 #: trac/ticket/model.py:776
 msgid "Closed"
