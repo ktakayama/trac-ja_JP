@@ -2915,11 +2915,11 @@ msgstr "%(total)d 件中 %(start)d - %(stop)d 件目"
 #: trac/versioncontrol/admin.py:42
 #, python-format
 msgid "%(rev)s resynced."
-msgstr ""
+msgstr "%(rev)s 同期完了。"
 
 #: trac/versioncontrol/admin.py:45
 msgid "Resyncing repository history... "
-msgstr ""
+msgstr "リポジトリを再同期します…"
 
 #: trac/versioncontrol/admin.py:58
 #, python-format
