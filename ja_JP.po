@@ -2796,7 +2796,7 @@ msgstr "追加/更新 #"
 
 #: trac/ticket/templates/ticket.html:262 trac/wiki/templates/wiki_edit.html:98
 msgid "E-mail address and user name can be saved in the"
-msgstr ""
+msgstr "メールアドレスとユーザ名は個人設定で保存できます: "
 
 #: trac/ticket/templates/ticket.html:269
 msgid ""
@@ -3026,6 +3026,8 @@ msgid ""
 "Diff mismatch: Base is a %(oldnode)s (%(oldpath)s in revision %(oldrev)s)"
 " and Target is a %(newnode)s (%(newpath)s in revision %(newrev)s)."
 msgstr ""
+"不一致: 元の %(oldnode)s (%(oldpath)s リビジョン:%(oldrev)s)"
+"と対象の %(newnode)s (%(newpath)s リビジョン:%(newrev)s)."
 
 #: trac/versioncontrol/svn_fs.py:838
 #, python-format
@@ -3079,6 +3081,8 @@ msgid ""
 "Revision [1:%(rev)s], %(size)s\n"
 "            (checked in by %(author)s, %(date)s ago)"
 msgstr ""
+"リビジョン [1:%(rev)s], %(size)s\n"
+"            (%(author)s, %(date)s 前)"
 
 #: trac/versioncontrol/templates/browser.html:151
 msgid ""
@@ -3443,7 +3447,7 @@ msgstr "検索"
 msgid ""
 "You can %(search)s in the repository history to see if that path existed "
 "but was later removed"
-msgstr ""
+msgstr "削除されたパスがあれば、 リポジトリの履歴から %(search)s して閲覧する事ができます。"
 
 #: trac/web/auth.py:88
 #, python-format
