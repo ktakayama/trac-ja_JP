@@ -3530,12 +3530,12 @@ msgstr "HTMLパースエラー: %(message)s"
 
 #: trac/wiki/formatter.py:144
 msgid "Error: Forbidden character sequence \"--\" in htmlcomment wiki code block"
-msgstr ""
+msgstr "エラー: htmlcomment ブロック内では、文字列 \"--\" は許可されていません"
 
 #: trac/wiki/intertrac.py:50
 #, python-format
 msgid "Can't view %(link)s:"
-msgstr ""
+msgstr "%(link)s の表示"
 
 #: trac/wiki/macros.py:478
 #, python-format
