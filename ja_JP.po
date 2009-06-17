@@ -567,26 +567,26 @@ msgstr "不明なアクション"
 #: trac/admin/web_ui.py:339
 #, python-format
 msgid "The user %(subject)s has been granted the permission %(action)s."
-msgstr ""
+msgstr "ユーザ \"%(subject)s\" にアクション \"%(action)s\" を追加しました。"
 
 #: trac/admin/web_ui.py:344
-#, fuzzy, python-format
+#, python-format
 msgid "The permission %(action)s was already granted to %(subject)s."
-msgstr "権限 \"%(action)s\" は既に \"%(subject)s\" に与えられています"
+msgstr "ユーザ \"%(subject)s\" にはすでにアクション \"%(action)s\" が登録されています。"
 
 #: trac/admin/web_ui.py:360
-#, fuzzy, python-format
+#, python-format
 msgid "The user %(subject)s has been added to the group %(group)s."
-msgstr "\"%(subject)s\" は既にグループ \"%(group)s\" に追加済みです"
+msgstr "ユーザ \"%(subject)s\" をグループ \"%(group)s\" に追加しました。"
 
 #: trac/admin/web_ui.py:365
-#, fuzzy, python-format
+#, python-format
 msgid "The user %(subject)s was already added to the group %(group)s."
-msgstr "\"%(subject)s\" は既にグループ \"%(group)s\" に追加済みです"
+msgstr "ユーザ \"%(subject)s\" はすでにグループ \"%(group)s\" に登録されています。"
 
 #: trac/admin/web_ui.py:378
 msgid "The selected permissions have been revoked."
-msgstr ""
+msgstr "選択した権限を無効にしました。"
 
 #: trac/admin/web_ui.py:404 trac/admin/templates/admin_plugins.html:9
 msgid "Plugins"
@@ -1894,9 +1894,9 @@ msgid "Warning:"
 msgstr "警告:"
 
 #: trac/ticket/admin.py:105
-#, fuzzy, python-format
+#, python-format
 msgid "The component \"%(name)s\" has been added."
-msgstr "コンポーネント %(name)s は存在しません。 "
+msgstr "コンポーネント \"%(name)s\" が追加されました。 "
 
 #: trac/ticket/admin.py:109
 #, python-format
@@ -1938,9 +1938,9 @@ msgid "The selected milestones have been removed."
 msgstr ""
 
 #: trac/ticket/admin.py:470
-#, fuzzy, python-format
+#, python-format
 msgid "The version \"%(name)s\" has been added."
-msgstr "バージョン %(name)s は存在しません。"
+msgstr "バージョン \"%(name)s\" が追加されました。"
 
 #: trac/ticket/admin.py:474
 #, python-format
@@ -2311,9 +2311,9 @@ msgid "Milestones reached"
 msgstr "マイルストーンの完了"
 
 #: trac/ticket/roadmap.py:602
-#, fuzzy, python-format
+#, python-format
 msgid "The milestone \"%(name)s\" has been deleted."
-msgstr "マイルストーン %(name)s はすでに登録されています。"
+msgstr "マイルストーン \"%(name)s\" が削除されました。"
 
 #: trac/ticket/roadmap.py:640
 #, python-format
@@ -2584,7 +2584,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:29
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件が該当"
@@ -2992,7 +2992,7 @@ msgid "Resyncing repository history... "
 msgstr "リポジトリを再同期します…"
 
 #: trac/versioncontrol/admin.py:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] "%(num)s リビジョンのキャッシュがあります。"
@@ -3658,9 +3658,9 @@ msgid "currently edited"
 msgstr "編集中のもの"
 
 #: trac/wiki/web_ui.py:258
-#, fuzzy, python-format
+#, python-format
 msgid "The page %(name)s has been deleted."
-msgstr "ページ番号 %(page)s は不正です。"
+msgstr "%(name)s は削除されました。"
 
 #: trac/wiki/web_ui.py:263
 #, python-format
