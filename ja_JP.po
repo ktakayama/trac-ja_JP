@@ -1922,7 +1922,7 @@ msgstr "不正な期日日付"
 #: trac/ticket/admin.py:291
 #, python-format
 msgid "The milestone \"%(name)s\" has been added."
-msgstr ""
+msgstr "マイルストーン \"%(name)s\" が追加されました。"
 
 #: trac/ticket/admin.py:295
 #, python-format
@@ -1962,7 +1962,7 @@ msgstr "日時"
 #: trac/ticket/admin.py:618
 #, python-format
 msgid "The %(field)s \"%(name)s\" has been added."
-msgstr ""
+msgstr "%(field)s \"%(name)s\" が追加されました。"
 
 #: trac/ticket/admin.py:623
 #, python-format
@@ -2202,12 +2202,12 @@ msgstr ""
 
 #: trac/ticket/report.py:145
 msgid "The report has been created."
-msgstr ""
+msgstr "レポートを作成しました。"
 
 #: trac/ticket/report.py:157
 #, python-format
 msgid "The report {%(id)d} has been deleted."
-msgstr "リポート {%(id)d} を削除しました。"
+msgstr "レポート {%(id)d} を削除しました。"
 
 #: trac/ticket/report.py:181
 #, python-format
