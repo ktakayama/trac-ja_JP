@@ -481,7 +481,7 @@ msgstr "不明な管理画面"
 #: trac/ticket/admin.py:683 trac/ticket/report.py:172
 #: trac/ticket/roadmap.py:674 trac/wiki/web_ui.py:290
 msgid "Your changes have been saved."
-msgstr ""
+msgstr "変更が保存されました。"
 
 #: trac/admin/web_ui.py:186 trac/ticket/admin.py:61
 msgid ""
@@ -1073,7 +1073,7 @@ msgstr "詳細"
 
 #: trac/prefs/web_ui.py:146
 msgid "Your preferences have been saved."
-msgstr ""
+msgstr "個人設定が保存されました。"
 
 #: trac/prefs/templates/prefs.html:10
 msgid "Preferences:"
@@ -1909,7 +1909,7 @@ msgstr "コンポーネントが選択されていません"
 
 #: trac/ticket/admin.py:124
 msgid "The selected components have been removed."
-msgstr ""
+msgstr "選択したコンポーネントが削除されました。"
 
 #: trac/ticket/admin.py:262 trac/ticket/roadmap.py:651
 msgid "Completion date may not be in the future"
@@ -2584,7 +2584,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:29
 #: trac/ticket/templates/query_results.html:29
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件が該当"
@@ -2992,7 +2992,7 @@ msgid "Resyncing repository history... "
 msgstr "リポジトリを再同期します…"
 
 #: trac/versioncontrol/admin.py:58
-#, python-format
+#, fuzzy, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] "%(num)s リビジョンのキャッシュがあります。"
