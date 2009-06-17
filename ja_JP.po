@@ -339,6 +339,12 @@ msgid ""
 " Please enter the name of your project.\n"
 " This name will be used in page titles and descriptions.\n"
 msgstr ""
+"\n"
+"はじめに、プロジェクトのデータベースの初期化と準備をするために、\n"
+"あなたの環境についていくつか確認をします。\n"
+"\n"
+" プロジェクトの名前を入力してください。\n"
+" この名前は、ページのタイトルと説明に使用されます。\n"
 
 #: trac/admin/console.py:306
 #, python-format
@@ -354,11 +360,12 @@ msgid ""
 " PostgreSQL database (check the Trac documentation for the exact\n"
 " connection string syntax).\n"
 msgstr ""
-"使用するデータベースへの接続文字列を指定してください。\n"
-"デフォルトでは、localにSQLiteデータベースを作成します。\n"
-"既に存在するPostgreSQLデータベースを使うこともできます。\n"
-"(Tracでは、接続文字列は厳密に表記する必要があります。\n"
-"詳細はTracのドキュメントを参照してください)\n"
+" \n"
+" 使用するデータベースへの接続文字列を指定してください。\n"
+" デフォルトでは、localにSQLiteデータベースを作成します。\n"
+" 既に存在するPostgreSQLデータベースを使うこともできます。\n"
+" (Tracでは、接続文字列は厳密に表記する必要があります。\n"
+" 詳細はTracのドキュメントを参照してください)\n"
 
 #: trac/admin/console.py:316
 #, python-format
@@ -375,6 +382,12 @@ msgid ""
 " choose the default here and don't specify a repository directory.\n"
 " in the next question.\n"
 msgstr ""
+" \n"
+" バージョンコントロールシステムを指定してください。\n"
+" デフォルではsvnになります。\n"
+"\n"
+" バージョンコントロールシステムを使いたくない場合、\n"
+" ここはデフォルトのままとし、次の項目でリポジトリのパスを指定しないでください。\n"
 
 #: trac/admin/console.py:327
 #, python-format
@@ -388,6 +401,10 @@ msgid ""
 " repository, or leave it blank to use Trac without a repository.\n"
 " You can also set the repository location later.\n"
 msgstr ""
+"\n"
+" リポジトリへの絶対パスを指定してください。\n"
+" リポジトリを使わずにTracを使用する場合は、ブランクにします。\n"
+" リポジトリのパスは、後で設定する事も可能です。\n"
 
 #: trac/admin/console.py:334
 msgid "Path to repository [/path/to/repos]> "
@@ -488,6 +505,8 @@ msgid ""
 "Error writing to trac.ini, make sure it is writable by the web server. "
 "Your changes have not been saved."
 msgstr ""
+"trac.ini の書き込みエラー。ウェブサーバによる書き込みができるか確認してください。"
+"変更は保存されませんでした。"
 
 #: trac/admin/web_ui.py:199 trac/admin/web_ui.py:226 trac/admin/web_ui.py:314
 #: trac/admin/web_ui.py:404 trac/prefs/web_ui.py:88
@@ -2270,7 +2289,7 @@ msgstr "レポート %(num)s はSQLクエリが定義されていません。"
 #: trac/ticket/report.py:577
 #, python-format
 msgid "Query parameter \"sort=%(sort_col)s\"  is invalid"
-msgstr ""
+msgstr "クエリのパラメータ \"sort=%(sort_col)s\" は不正です"
 
 #: trac/ticket/roadmap.py:215
 #, python-format
@@ -2576,7 +2595,7 @@ msgstr "更新者: "
 
 #: trac/ticket/templates/milestone_view.html:62
 msgid "(none)"
-msgstr ""
+msgstr "(無し)"
 
 #: trac/ticket/templates/milestone_view.html:94
 msgid "Edit milestone"
@@ -3037,6 +3056,9 @@ msgid ""
 "Unsupported version control system \"%(name)s\": Can't find an "
 "appropriate component, maybe the corresponding plugin was not enabled? "
 msgstr ""
+"サポートされていないバージョン管理システム \"%(name)s\":"
+"適切なコンポーネントを見つけることができません。"
+"対応するプラグインは、有効になっていますか？"
 
 #: trac/versioncontrol/api.py:178
 #, python-format
