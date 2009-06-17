@@ -1909,7 +1909,7 @@ msgstr "コンポーネントが選択されていません"
 
 #: trac/ticket/admin.py:124
 msgid "The selected components have been removed."
-msgstr "選択したコンポーネントが削除されました。"
+msgstr "選択したコンポーネントを削除しました。"
 
 #: trac/ticket/admin.py:262 trac/ticket/roadmap.py:651
 msgid "Completion date may not be in the future"
@@ -1935,7 +1935,7 @@ msgstr "マイルストーンが選択されていません"
 
 #: trac/ticket/admin.py:311
 msgid "The selected milestones have been removed."
-msgstr ""
+msgstr "選択したマイルストーンを削除しました。"
 
 #: trac/ticket/admin.py:470
 #, python-format
@@ -1953,7 +1953,7 @@ msgstr "バージョンが選択されていません"
 
 #: trac/ticket/admin.py:489
 msgid "The selected versions have been removed."
-msgstr ""
+msgstr "選択したバージョンを削除しました。"
 
 #: trac/ticket/admin.py:547
 msgid "Time"
@@ -1977,7 +1977,7 @@ msgstr "%s は選択されていません"
 #: trac/ticket/admin.py:639
 #, python-format
 msgid "The selected %(fields)s have been removed."
-msgstr ""
+msgstr "選択した%(fields)sを削除しました。"
 
 #: trac/ticket/admin.py:660
 msgid ""
@@ -2207,7 +2207,7 @@ msgstr ""
 #: trac/ticket/report.py:157
 #, python-format
 msgid "The report {%(id)d} has been deleted."
-msgstr ""
+msgstr "リポート {%(id)d} を削除しました。"
 
 #: trac/ticket/report.py:181
 #, python-format
@@ -2313,7 +2313,7 @@ msgstr "マイルストーンの完了"
 #: trac/ticket/roadmap.py:602
 #, python-format
 msgid "The milestone \"%(name)s\" has been deleted."
-msgstr "マイルストーン \"%(name)s\" が削除されました。"
+msgstr "マイルストーン \"%(name)s\" を削除しました。"
 
 #: trac/ticket/roadmap.py:640
 #, python-format
@@ -3660,17 +3660,17 @@ msgstr "編集中のもの"
 #: trac/wiki/web_ui.py:258
 #, python-format
 msgid "The page %(name)s has been deleted."
-msgstr "%(name)s は削除されました。"
+msgstr "%(name)s を削除しました。"
 
 #: trac/wiki/web_ui.py:263
-#, python-format
+#, fuzzy, python-format
 msgid "The versions %(from_)d to %(to)d of the page %(name)s have been deleted."
-msgstr ""
+msgstr "ページ %(name)s のバージョン %(from_)d から %(to)d を削除しました。"
 
 #: trac/wiki/web_ui.py:267
 #, python-format
 msgid "The version %(version)d of the page %(name)s has been deleted."
-msgstr ""
+msgstr "ページ %(name)s のバージョン %(version)d を削除しました。"
 
 #: trac/wiki/web_ui.py:294
 msgid "Page not modified, showing latest version."
