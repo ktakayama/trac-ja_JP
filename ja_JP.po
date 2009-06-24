@@ -5,7 +5,6 @@
 # Kyosuke Takayama <support@mc.neweb.ne.jp>, 2008,2009.
 # hirobe, 2008.
 # kabuchan, 2009.
-# espion, 2009.
 # IWAI, Masaharu <iwai@alib.jp>, 2009.
 #
 msgid ""
