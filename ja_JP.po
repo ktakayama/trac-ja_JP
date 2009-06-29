@@ -2636,7 +2636,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:29
 #: trac/ticket/templates/query_results.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件が該当"
