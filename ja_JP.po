@@ -3203,9 +3203,8 @@ msgid "un-blocked: "
 msgstr ""
 
 #: trac/versioncontrol/svn_prop.py:244
-#, fuzzy
 msgid " (added)"
-msgstr "を追加"
+msgstr " (追加)"
 
 #: trac/versioncontrol/svn_prop.py:272
 #: trac/versioncontrol/templates/changeset.html:133
