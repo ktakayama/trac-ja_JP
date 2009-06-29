@@ -1027,11 +1027,11 @@ msgid "Unsupported database type \"%(scheme)s\""
 msgstr "\"%(scheme)s\" データベースはサポートされません"
 
 #: trac/db/api.py:156
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Unknown scheme \"%(scheme)s\"; database connection string must start with"
 " {scheme}:/"
-msgstr "scheme:/ の形式でデータベース接続文字列は始まらないといけません"
+msgstr "不明なスキーマ: \"%(scheme)s\"。データベース接続文字列は {scheme}:/ の形式で始まらないといけません"
 
 #: trac/db/pool.py:122
 #, python-format
