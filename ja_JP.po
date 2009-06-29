@@ -1545,7 +1545,7 @@ msgstr "と"
 
 #: trac/templates/diff_view.html:25
 msgid "of"
-msgstr ""
+msgstr ":"
 
 #: trac/templates/diff_view.html:37
 #: trac/versioncontrol/templates/changeset.html:94
@@ -2801,7 +2801,7 @@ msgstr "新しいレポートの作成"
 
 #: trac/ticket/templates/roadmap.html:22
 msgid "Show already completed milestones"
-msgstr "完了したロードマップも表示する"
+msgstr "完了したマイルストーンも表示する"
 
 #: trac/ticket/templates/roadmap.html:33
 msgid "Milestone:"
