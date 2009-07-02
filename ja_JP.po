@@ -3553,7 +3553,7 @@ msgstr "差分形式(unified)"
 
 #: trac/versioncontrol/web_ui/changeset.py:351
 msgid "Reverse Diff"
-msgstr "逆差分"
+msgstr "変更内容を反転"
 
 #: trac/versioncontrol/web_ui/changeset.py:382
 #, python-format
@@ -3610,7 +3610,7 @@ msgstr "更新履歴 (%(path)s のリビジョン %(rev)s から開始)"
 
 #: trac/versioncontrol/web_ui/log.py:244
 msgid "ChangeLog"
-msgstr "変更内容"
+msgstr "変更内容(ChangeLog)"
 
 #: trac/versioncontrol/web_ui/log.py:246
 msgid "View Latest Revision"
