@@ -551,7 +551,7 @@ msgstr "基本設定"
 #: trac/admin/web_ui.py:226 trac/admin/templates/admin_logging.html:10
 #: trac/admin/templates/admin_logging.html:22
 msgid "Logging"
-msgstr "ログ出力の設定"
+msgstr "ログ"
 
 #: trac/admin/web_ui.py:235 trac/ticket/templates/milestone_delete.html:31
 #: trac/ticket/templates/milestone_edit.html:73
@@ -603,7 +603,7 @@ msgstr "フィールドがありません"
 
 #: trac/admin/web_ui.py:314 trac/admin/templates/admin_perms.html:9
 msgid "Permissions"
-msgstr "権限の設定"
+msgstr "権限"
 
 #: trac/admin/web_ui.py:328
 msgid "All upper-cased tokens are reserved for permission names"
@@ -2214,7 +2214,7 @@ msgstr "RSSフィード"
 
 #: trac/ticket/query.py:746 trac/ticket/report.py:530 trac/ticket/web_ui.py:147
 msgid "Comma-delimited Text"
-msgstr "CSV(コンマ区切り)"
+msgstr "CSV(カンマ区切り)"
 
 #: trac/ticket/query.py:748 trac/ticket/report.py:532 trac/ticket/web_ui.py:149
 msgid "Tab-delimited Text"
@@ -2748,7 +2748,7 @@ msgstr "[1:※] 詳しい使い方は [2:TracReports] を参照してくださ�
 
 #: trac/ticket/templates/report_edit.html:21
 msgid "Report Title:"
-msgstr "レポート名称:"
+msgstr "レポートの名称:"
 
 #: trac/ticket/templates/report_edit.html:25
 msgid "Description: (you may use [1:WikiFormatting] here)"
@@ -2945,7 +2945,7 @@ msgstr "自分自身の登録か削除を行えます"
 
 #: trac/ticket/templates/ticket.html:359
 msgid "Space or comma delimited email addresses and usernames are accepted."
-msgstr "空白かコンマ区切りで、メールアドレスかユーザ名を設定できます。"
+msgstr "空白かカンマ区切りで、メールアドレスかユーザ名を設定できます。"
 
 #: trac/ticket/templates/ticket.html:391
 msgid "I have files to attach to this ticket"
