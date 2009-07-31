@@ -1952,9 +1952,8 @@ msgid "The component \"%(name)s\" has been added."
 msgstr "コンポーネント \"%(name)s\" が追加されました。 "
 
 #: trac/ticket/admin.py:109 trac/ticket/model.py:576 trac/ticket/model.py:597
-#, fuzzy
 msgid "Invalid component name."
-msgstr "不正な期日日付"
+msgstr "コンポーネントの名称が不正です。"
 
 #: trac/ticket/admin.py:110
 #, python-format
@@ -1975,7 +1974,7 @@ msgstr "完了日時に未来の日時を指定しようとしています"
 
 #: trac/ticket/admin.py:265
 msgid "Invalid Completion Date"
-msgstr "不正な期日日付"
+msgstr "完了日時が不正です"
 
 #: trac/ticket/admin.py:292
 #, python-format
@@ -1983,9 +1982,8 @@ msgid "The milestone \"%(name)s\" has been added."
 msgstr "マイルストーン \"%(name)s\" が追加されました。"
 
 #: trac/ticket/admin.py:297 trac/ticket/model.py:705 trac/ticket/model.py:726
-#, fuzzy
 msgid "Invalid milestone name."
-msgstr "不正な期日日付"
+msgstr "マイルストーンの名称が不正です。"
 
 #: trac/ticket/admin.py:298
 #, python-format
@@ -2006,9 +2004,9 @@ msgid "The version \"%(name)s\" has been added."
 msgstr "バージョン \"%(name)s\" が追加されました。"
 
 #: trac/ticket/admin.py:478 trac/ticket/model.py:835 trac/ticket/model.py:856
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid version name."
-msgstr "\"%(name)s\" は不正なアクションです。"
+msgstr "バージョンの名称が不正です。"
 
 #: trac/ticket/admin.py:479
 #, python-format
@@ -2035,7 +2033,7 @@ msgstr "%(field)s \"%(name)s\" が追加されました。"
 #: trac/ticket/admin.py:629 trac/ticket/model.py:434 trac/ticket/model.py:461
 #, python-format
 msgid "Invalid %(type)s name."
-msgstr ""
+msgstr "%(type)s の名称が不正です。"
 
 #: trac/ticket/admin.py:631
 #, python-format
