@@ -3990,18 +3990,16 @@ msgid "Review Changes"
 msgstr "変更を確認"
 
 #: trac/wiki/templates/wiki_view.html:47
-#, fuzzy
 msgid "The page"
-msgstr "しますか？"
+msgstr "ページ"
 
 #: trac/wiki/templates/wiki_view.html:47
 msgid "does not exist. You can create it here."
-msgstr ""
+msgstr "がありません。ここから作成できます。"
 
 #: trac/wiki/templates/wiki_view.html:49
-#, fuzzy
 msgid "You could also create the same page higher in the hierarchy:"
-msgstr "あるいはまた、上位の階層で次のページを作成することもできます:"
+msgstr "また、上位の階層にページを作成することもできます："
 
 #: trac/wiki/templates/wiki_view.html:70
 msgid "Edit this page"
@@ -4029,5 +4027,5 @@ msgstr "このページを削除"
 
 #: trac/wiki/templates/wiki_view.html:108
 msgid "The following pages have a name similar to this page, and may be related:"
-msgstr ""
+msgstr "以下のページはこのページの名前に似ているので、関係があるかもしれません："
 
