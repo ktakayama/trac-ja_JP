@@ -2096,53 +2096,49 @@ msgid "Ticket %(num)s and all associated data removed."
 msgstr "チケット %(num)s とそれに関するデータを削除しました。"
 
 #: trac/ticket/api.py:217
-#, fuzzy
 msgid "Summary"
-msgstr "概要:"
+msgstr "概要"
 
 #: trac/ticket/api.py:219
-#, fuzzy
 msgid "Reporter"
-msgstr "報告者:"
+msgstr "報告者"
 
 #: trac/ticket/api.py:232
-#, fuzzy
 msgid "Type"
-msgstr "種別:"
+msgstr "分類"
 
 #: trac/ticket/api.py:233
 msgid "Status"
-msgstr ""
+msgstr "ステータス"
 
 #: trac/ticket/api.py:234
-#, fuzzy
 msgid "Priority"
-msgstr "プロパティ"
+msgstr "優先度"
 
 #: trac/ticket/api.py:235 trac/ticket/templates/milestone_view.html:11
 #: trac/ticket/templates/milestone_view.html:23
 msgid "Milestone"
-msgstr "マイルストーン:"
+msgstr "マイルストーン"
 
 #: trac/ticket/api.py:238
 msgid "Severity"
-msgstr ""
+msgstr "重要度"
 
 #: trac/ticket/api.py:239
 msgid "Resolution"
-msgstr ""
+msgstr "解決方法"
 
 #: trac/ticket/api.py:258
 msgid "Keywords"
-msgstr ""
+msgstr "キーワード"
 
 #: trac/ticket/api.py:259
 msgid "Cc"
-msgstr ""
+msgstr "関係者"
 
 #: trac/ticket/api.py:263
 msgid "Created"
-msgstr "作成"
+msgstr ""
 
 #: trac/ticket/api.py:423
 #, python-format
@@ -2202,14 +2198,13 @@ msgid "Next status will be '%(name)s'"
 msgstr "次のステータスは '%(name)s' です"
 
 #: trac/ticket/model.py:108
-#, fuzzy, python-format
+#, python-format
 msgid "Ticket %(id)s does not exist."
-msgstr "レポート %(num)s は存在しません。"
+msgstr "チケット %(id)s は存在しません。"
 
 #: trac/ticket/model.py:109
-#, fuzzy
 msgid "Invalid ticket number"
-msgstr "レポート番号が不正です"
+msgstr "チケット番号が不正です"
 
 #: trac/ticket/model.py:142
 msgid "Multi-values fields not supported yet"
@@ -2226,12 +2221,11 @@ msgid "Component %(name)s does not exist."
 msgstr "コンポーネント %(name)s は存在しません。 "
 
 #: trac/ticket/model.py:745
-#, fuzzy, python-format
+#, python-format
 msgid "Milestone %(name)s does not exist."
-msgstr "バージョン %(name)s は存在しません。"
+msgstr "マイルストーン %(name)s は存在しません。"
 
 #: trac/ticket/model.py:746
-#, fuzzy
 msgid "Invalid milestone name"
 msgstr "マイルストーンの名称が不正です。"
 
@@ -2604,7 +2598,7 @@ msgstr "チケットの履歴"
 #: trac/ticket/web_ui.py:988
 #, fuzzy, python-format
 msgid "Ticket #%(num)s, comment %(cnum)d"
-msgstr "チケット #%(num)s: %(summary)s"
+msgstr "チケット #%(num)s, %(cnum)d"
 
 #: trac/ticket/web_ui.py:986
 #, fuzzy
@@ -2612,9 +2606,8 @@ msgid "Ticket Comment Diff"
 msgstr "チケットの差分"
 
 #: trac/ticket/web_ui.py:1072
-#, fuzzy
 msgid "No permission to edit description."
-msgstr "コメントを追加する権限がありません。"
+msgstr "説明を編集する権限がありません。"
 
 #: trac/ticket/web_ui.py:1075
 msgid "No permission to change ticket fields."
@@ -3265,46 +3258,46 @@ msgid ""
 msgstr "[1:※] 詳しい使い方は [2:TracTimeline] を参照してください。"
 
 #: trac/util/datefmt.py:68
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
-msgstr[0] "%(num)s 件が該当"
+msgstr[0] "%(num)d 年"
 
 #: trac/util/datefmt.py:69
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
-msgstr[0] "%(num)s 件が該当"
+msgstr[0] "%(num)d ヵ月"
 
 #: trac/util/datefmt.py:70
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
-msgstr[0] ""
+msgstr[0] "%(num)d 週"
 
 #: trac/util/datefmt.py:71
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
-msgstr[0] "%(num)s 件が該当"
+msgstr[0] "%(num)d 日"
 
 #: trac/util/datefmt.py:72
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] "%(num)s 件が該当"
+msgstr[0] "%(num)d 時間"
 
 #: trac/util/datefmt.py:73
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)s 件が該当"
+msgstr[0] "%(num)d 分"
 
 #: trac/util/datefmt.py:92
 #, python-format
 msgid "%(num)i second"
 msgid_plural "%(num)i seconds"
-msgstr[0] ""
+msgstr[0] "%(num)i 秒"
 
 #: trac/util/presentation.py:254
 #, python-format
@@ -4263,11 +4256,9 @@ msgid "Review Changes"
 msgstr "変更を確認"
 
 #: trac/wiki/templates/wiki_view.html:33
-#, fuzzy, python-format
+#, python-format
 msgid "Version %(version)s (modified by %(author)s, %(date)s ago)"
-msgstr ""
-"リビジョン [1:%(rev)s], %(size)s\n"
-"            (%(author)s, %(date)s 前)"
+msgstr "バージョン %(version)s (%(author)s, %(date)s 前)"
 
 #: trac/wiki/templates/wiki_view.html:48
 msgid "The page"
