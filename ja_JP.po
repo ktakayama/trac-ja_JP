@@ -155,7 +155,7 @@ msgstr "ファイル %(name)s はすでに登録されています。"
 #: trac/config.py:347
 #, python-format
 msgid "[%(section)s] %(entry)s: expected integer, got %(value)s"
-msgstr ""
+msgstr "[%(section)s] %(entry)s: %(value)s は整数を入力してください。"
 
 #: trac/env.py:506
 msgid "Database newer than Trac version"
@@ -282,7 +282,7 @@ msgstr "グループ名はすべて小文字にする必要があります。ア
 #: trac/resource.py:329
 #, python-format
 msgid " at version %(version)s"
-msgstr ""
+msgstr " バージョン %(version)s"
 
 #: trac/admin/api.py:130
 msgid "Command not found"
@@ -315,7 +315,7 @@ msgstr "Environmentが開けません。"
 
 #: trac/admin/console.py:201
 msgid "Completion error:"
-msgstr ""
+msgstr "完了エラー:"
 
 #: trac/admin/console.py:252
 #, python-format
@@ -1676,17 +1676,18 @@ msgstr "エラーを発生させた操作:"
 
 #: trac/templates/error.html:121
 msgid "This is probably a local installation issue."
-msgstr ""
+msgstr "おそらくローカルインストールに問題があります。"
 
 #: trac/templates/error.html:122
 msgid "You should"
-msgstr ""
+msgstr "admin Trac でこの問題のチケットを"
 
 #: trac/templates/error.html:123
 msgid ""
 "a ticket at the admin Trac to report\n"
 "                    the issue."
 msgstr ""
+"してください。"
 
 #: trac/templates/error.html:128
 msgid "Found a bug in Trac?"
@@ -2190,7 +2191,7 @@ msgstr "フィルタには、フィールド名が含まれている必要があ
 #: trac/ticket/query.py:273
 #, python-format
 msgid "Page %(page)s is beyond the number of pages in the query"
-msgstr ""
+msgstr "%(page)s ページはクエリのページ数を超えています。"
 
 #: trac/ticket/query.py:609 trac/ticket/web_ui.py:601
 msgid "Ticket"
@@ -2263,12 +2264,12 @@ msgstr "一致するものがありません"
 #: trac/ticket/query.py:1162
 #, python-format
 msgid "%(groupvalue)s %(groupname)s tickets matching %(query)s"
-msgstr ""
+msgstr "%(query)s に %(groupvalue)s %(groupname)s のチケットが該当"
 
 #: trac/ticket/query.py:1184
 #, python-format
 msgid "%(groupvalue)s %(groupname)s tickets:"
-msgstr ""
+msgstr "%(groupvalue)s %(groupname)s のチケット:"
 
 #: trac/ticket/report.py:145
 msgid "The report has been created."
@@ -2326,7 +2327,7 @@ msgstr "レポートの実行に失敗しました: %(error)s"
 #: trac/ticket/report.py:515
 #, python-format
 msgid "The following arguments are missing: %(args)s"
-msgstr ""
+msgstr "以下の引数が見つかりません: %(args)s"
 
 #: trac/ticket/report.py:534
 msgid "SQL Query"
@@ -2348,6 +2349,8 @@ msgid ""
 "'%(group1)s' and '%(group2)s' milestone groups both are declared to be "
 "\"catch-all\" groups. Please check your configuration."
 msgstr ""
+"'%(group1)s' と '%(group2)s' のマイルストーングループは、どちらも \"catch-all\" グループです。"
+"設定を確認して下さい。"
 
 #: trac/ticket/roadmap.py:231
 #, python-format
@@ -2369,7 +2372,7 @@ msgstr "iCalendar"
 #: trac/ticket/roadmap.py:433 trac/ticket/roadmap.py:831
 #, python-format
 msgid "Milestone %(name)s"
-msgstr "マイルストーン: %(name)s"
+msgstr "マイルストーン %(name)s"
 
 #: trac/ticket/roadmap.py:452
 #, python-format
