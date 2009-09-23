@@ -2274,9 +2274,9 @@ msgid "Page %(page)s is beyond the number of pages in the query"
 msgstr "%(page)s ページはクエリのページ数を超えています。"
 
 #: trac/ticket/query.py:556
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid ticket id list: %(value)s"
-msgstr "up/down 以外の値です: %(value)s"
+msgstr "チケット番号が不正です: %(value)s"
 
 #: trac/ticket/query.py:655 trac/ticket/query.py:663
 msgid "contains"
@@ -2517,10 +2517,10 @@ msgid "updated"
 msgstr "が更新されました"
 
 #: trac/ticket/web_ui.py:278
-#, fuzzy, python-format
+#, python-format
 msgid "%(labels)s changed"
 msgid_plural "%(labels)s changed"
-msgstr[0] "保存"
+msgstr[0] "%(labels)s を変更"
 
 #: trac/ticket/web_ui.py:358
 #, python-format
@@ -2533,14 +2533,12 @@ msgid "Invalid action \"%(name)s\""
 msgstr "\"%(name)s\" は不正なアクションです。"
 
 #: trac/ticket/web_ui.py:633
-#, fuzzy
 msgid "Previous Ticket"
-msgstr "前"
+msgstr "前のチケット"
 
 #: trac/ticket/web_ui.py:633
-#, fuzzy
 msgid "Next Ticket"
-msgstr "チケットの新規作成"
+msgstr "次のチケット"
 
 #: trac/ticket/web_ui.py:634
 msgid "Back to Query"
@@ -2574,15 +2572,13 @@ msgstr "初期"
 
 #: trac/ticket/web_ui.py:865 trac/ticket/web_ui.py:980
 #: trac/versioncontrol/web_ui/changeset.py:341 trac/wiki/web_ui.py:395
-#, fuzzy
 msgid "Previous Change"
-msgstr "前のページ"
+msgstr "前の変更"
 
 #: trac/ticket/web_ui.py:865 trac/ticket/web_ui.py:980
 #: trac/versioncontrol/web_ui/changeset.py:341 trac/wiki/web_ui.py:395
-#, fuzzy
 msgid "Next Change"
-msgstr "次のページ"
+msgstr "次の変更"
 
 #: trac/ticket/web_ui.py:871
 msgid "Ticket Diff"
@@ -2590,20 +2586,18 @@ msgstr "チケットの差分"
 
 #: trac/ticket/web_ui.py:905 trac/ticket/web_ui.py:974
 #: trac/ticket/web_ui.py:981
-#, fuzzy
 msgid "Ticket Comment History"
-msgstr "チケットの履歴"
+msgstr "コメントの履歴"
 
 #: trac/ticket/web_ui.py:907 trac/ticket/web_ui.py:931
 #: trac/ticket/web_ui.py:988
-#, fuzzy, python-format
+#, python-format
 msgid "Ticket #%(num)s, comment %(cnum)d"
-msgstr "チケット #%(num)s, %(cnum)d"
+msgstr "チケット #%(num)s, コメント %(cnum)d"
 
 #: trac/ticket/web_ui.py:986
-#, fuzzy
 msgid "Ticket Comment Diff"
-msgstr "チケットの差分"
+msgstr "コメントの差分"
 
 #: trac/ticket/web_ui.py:1072
 msgid "No permission to edit description."
@@ -2788,7 +2782,7 @@ msgstr "マイルストーンの編集"
 
 #: trac/ticket/templates/query.html:29
 #: trac/ticket/templates/query_results.html:30
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s match"
 msgid_plural "%(num)s matches"
 msgstr[0] "%(num)s 件が該当"
@@ -3091,9 +3085,8 @@ msgid "Changed %(date)s ago by %(author)s"
 msgstr "更新者: %(author)s (%(date)s 前)"
 
 #: trac/ticket/templates/ticket.html:260
-#, fuzzy
 msgid "Edit"
-msgstr "が更新されました。"
+msgstr "編集"
 
 #: trac/ticket/templates/ticket.html:267
 #, python-format
@@ -3103,21 +3096,20 @@ msgid ""
 msgstr ""
 
 #: trac/ticket/templates/ticket.html:271
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Last edited %(date)s ago\n"
 "                      by %(author)s"
-msgstr "更新者: %(author)s (%(date)s 前)"
+msgstr "%(author)s: %(date)s 前"
 
 #: trac/ticket/templates/ticket.html:276
 #: trac/versioncontrol/templates/changeset.html:92
 msgid "previous"
-msgstr "前"
+msgstr "前版"
 
 #: trac/ticket/templates/ticket.html:279
-#, fuzzy
 msgid "next"
-msgstr "次の"
+msgstr "次版"
 
 #: trac/ticket/templates/ticket.html:290 trac/ticket/templates/ticket.html:468
 #: trac/wiki/templates/wiki_edit.html:117
@@ -3144,13 +3136,12 @@ msgid ""
 msgstr "コメント ([1:Wiki書式]が使用可能):"
 
 #: trac/ticket/templates/ticket.html:339
-#, fuzzy
 msgid "Change Properties"
-msgstr "プロパティ"
+msgstr "属性変更"
 
 #: trac/ticket/templates/ticket.html:340
 msgid "Properties"
-msgstr "プロパティ"
+msgstr "属性"
 
 #: trac/ticket/templates/ticket.html:344
 msgid "Summary:"
@@ -3205,12 +3196,10 @@ msgid "Timeline"
 msgstr "タイムライン"
 
 #: trac/timeline/web_ui.py:229 trac/timeline/web_ui.py:237
-#, fuzzy
 msgid "Previous Period"
 msgstr "前の期間"
 
 #: trac/timeline/web_ui.py:236 trac/timeline/web_ui.py:237
-#, fuzzy
 msgid "Next Period"
 msgstr "次の期間"
 
@@ -3319,7 +3308,7 @@ msgid "Resyncing repository history... "
 msgstr "リポジトリを再同期します…"
 
 #: trac/versioncontrol/admin.py:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(num)s revision cached."
 msgid_plural "%(num)s revisions cached."
 msgstr[0] "%(num)s リビジョンのキャッシュがあります。"
@@ -3434,14 +3423,12 @@ msgid "No svn:externals configured in trac.ini"
 msgstr "trac.iniにsvn:externalsの設定がありません"
 
 #: trac/versioncontrol/svn_prop.py:148
-#, fuzzy
 msgid "merged"
-msgstr "凡例:"
+msgstr "マージ"
 
 #: trac/versioncontrol/svn_prop.py:148
-#, fuzzy
 msgid "blocked"
-msgstr "が解決されました"
+msgstr ""
 
 #: trac/versioncontrol/svn_prop.py:190
 msgid "eligible"
@@ -3456,14 +3443,12 @@ msgid "View merge source"
 msgstr ""
 
 #: trac/versioncontrol/svn_prop.py:241
-#, fuzzy
 msgid "No revisions"
-msgstr "リビジョン:"
+msgstr ""
 
 #: trac/versioncontrol/svn_prop.py:276
-#, fuzzy
 msgid "merged: "
-msgstr "凡例:"
+msgstr "マージ: "
 
 #: trac/versioncontrol/svn_prop.py:276
 msgid "blocked: "
@@ -3735,7 +3720,6 @@ msgid "Old / New"
 msgstr ""
 
 #: trac/versioncontrol/templates/revisionlog.html:93
-#, fuzzy
 msgid "Diff"
 msgstr "差分表示"
 
@@ -3831,14 +3815,12 @@ msgid "Unified Diff"
 msgstr "差分形式(unified)"
 
 #: trac/versioncontrol/web_ui/changeset.py:343
-#, fuzzy
 msgid "Previous Changeset"
-msgstr "前のページ"
+msgstr "前のチェンジセット"
 
 #: trac/versioncontrol/web_ui/changeset.py:343
-#, fuzzy
 msgid "Next Changeset"
-msgstr "チェンジセット"
+msgstr "次のチェンジセット"
 
 #: trac/versioncontrol/web_ui/changeset.py:347
 msgid "Reverse Diff"
@@ -4054,7 +4036,7 @@ msgid "The page %(name)s has been deleted."
 msgstr "%(name)s を削除しました。"
 
 #: trac/wiki/web_ui.py:264
-#, fuzzy, python-format
+#, python-format
 msgid "The versions %(from_)d to %(to)d of the page %(name)s have been deleted."
 msgstr "ページ %(name)s のバージョン %(from_)d から %(to)d を削除しました。"
 
@@ -4099,14 +4081,12 @@ msgid "View parent page"
 msgstr "上位のページを表示"
 
 #: trac/wiki/web_ui.py:566
-#, fuzzy
 msgid "Previous Version"
-msgstr "前の期間"
+msgstr "前のバージョン"
 
 #: trac/wiki/web_ui.py:566
-#, fuzzy
 msgid "Next Version"
-msgstr "次の期間"
+msgstr "次のバージョン"
 
 #: trac/wiki/web_ui.py:567
 msgid "View Latest Version"
