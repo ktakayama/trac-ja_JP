@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-09-22 11:30+0900\n"
+"PO-Revision-Date: 2009-09-23 12:14+0900\n"
 "Last-Translator: Kyosuke Takayama <support@mc.neweb.ne.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -4279,53 +4279,4 @@ msgstr "このページを削除"
 #: trac/wiki/templates/wiki_view.html:109
 msgid "The following pages have a name similar to this page, and may be related:"
 msgstr "以下のページはこのページの名前に似ているので、関係があるかもしれません："
-
-#~ msgid "Search Error"
-#~ msgstr "検索エラー"
-
-#~ msgid "(added by"
-#~ msgstr "("
-
-#~ msgid "ago)"
-#~ msgstr "前に追加)"
-
-#~ msgid "View attachment"
-#~ msgstr "添付ファイルの表示:"
-
-#~ msgid ") - added by"
-#~ msgstr ") - 投稿者:"
-
-#~ msgid "ago."
-#~ msgstr "前に作成."
-
-#~ msgid "Change"
-#~ msgstr "変更"
-
-#~ msgid "No permissions to change ticket fields."
-#~ msgstr "チケットのフィールドの内容を変更する権限がありません。"
-
-#~ msgid ""
-#~ "ago\n"
-#~ "            ("
-#~ msgstr "前 ("
-
-#~ msgid "late"
-#~ msgstr "遅れ"
-
-#~ msgid "Due in"
-#~ msgstr "期日まであと"
-
-#~ msgid "Reported by"
-#~ msgstr "報告者:"
-
-#~ msgid ""
-#~ "ago\n"
-#~ "                ("
-#~ msgstr "前 ("
-
-#~ msgid "Previous %(label)s"
-#~ msgstr "前の%(label)s"
-
-#~ msgid "Next %(label)s"
-#~ msgstr "次の%(label)s"
 
