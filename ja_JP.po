@@ -101,6 +101,9 @@ msgid ""
 "only replace your own attachments. Replacing other's attachments requires"
 " ATTACHMENT_DELETE permission."
 msgstr ""
+"添付ファイル %(name)s を置き換える権限がありません。"
+"置き換えられるのは、あなたが添付したファイルだけです。"
+"他の人が添付したファイルを置き換えるには ATTACHMENT_DELETE 権限が必要です。"
 
 #: trac/attachment.py:640
 #, python-format
@@ -1042,7 +1045,7 @@ msgstr "不明なスキーマ: \"%(scheme)s\"。データベース接続文字�
 
 #: trac/db/mysql_backend.py:72
 msgid "Cannot load Python bindings for MySQL"
-msgstr ""
+msgstr "MySQL 向け Python バインディングをロードできません"
 
 #: trac/db/pool.py:122
 #, python-format
@@ -1051,15 +1054,15 @@ msgstr "%(time)d 秒内にデータベースに接続できませんでした"
 
 #: trac/db/postgres_backend.py:55
 msgid "Cannot load Python bindings for PostgreSQL"
-msgstr ""
+msgstr "PostgresSQL 向け Python バインディングをロードできません"
 
 #: trac/db/sqlite_backend.py:143
 msgid "Cannot load Python bindings for SQLite"
-msgstr ""
+msgstr "SQLite 向け Python バインディングをロードできません"
 
 #: trac/db/sqlite_backend.py:147
 msgid "Need at least PySqlite 2.0.7 or higher"
-msgstr ""
+msgstr "PySqlite 2.0.7 もしくは、それ以上が必要です"
 
 #: trac/db/sqlite_backend.py:162
 #, python-format
@@ -1514,6 +1517,8 @@ msgid ""
 "File %(file)s, %(size)s\n"
 "                (added by %(author)s,  %(date)s ago)"
 msgstr ""
+"ファイル %(file)s, %(size)s\n"
+"                (added by %(author)s,  %(date)s 前)"
 
 #: trac/templates/diff_div.html:58
 #: trac/versioncontrol/templates/browser.html:138
@@ -1577,7 +1582,7 @@ msgstr "(複数の変更)"
 #: trac/versioncontrol/templates/changeset.html:100
 #, python-format
 msgid "%(date)s (%(duration)s ago)"
-msgstr ""
+msgstr "%(date)s (%(duration)s 前)"
 
 #: trac/templates/diff_view.html:50
 msgid "(IP:"
@@ -2138,7 +2143,7 @@ msgstr "関係者"
 
 #: trac/ticket/api.py:263
 msgid "Created"
-msgstr ""
+msgstr "作成"
 
 #: trac/ticket/api.py:423
 #, python-format
@@ -2248,7 +2253,7 @@ msgstr "バージョン %(name)s は存在しません。"
 
 #: trac/ticket/query.py:53
 msgid "Invalid query constraint value"
-msgstr ""
+msgstr "条件の値が不正です"
 
 #: trac/ticket/query.py:87
 #, python-format
@@ -2552,7 +2557,7 @@ msgstr "チケットの履歴"
 #: trac/ticket/web_ui.py:714 trac/ticket/web_ui.py:913
 #, python-format
 msgid "Back to Ticket #%(num)s"
-msgstr ""
+msgstr "チケット #%(num)s へ戻る"
 
 #: trac/ticket/web_ui.py:756
 msgid "No differences to show"
@@ -2747,6 +2752,8 @@ msgid ""
 "Completed %(duration)s ago\n"
 "              (%(date)s)"
 msgstr ""
+"%(duration)s 前に完了"
+"                  (%(date)s)"
 
 #: trac/ticket/templates/milestone_view.html:33
 #, python-format
@@ -2754,6 +2761,8 @@ msgid ""
 "[1:%(duration)s late]\n"
 "              (%(date)s)"
 msgstr ""
+"[1:%(duration)s 遅延]\n"
+"              (%(date)s)"
 
 #: trac/ticket/templates/milestone_view.html:39
 #, python-format
@@ -2761,6 +2770,8 @@ msgid ""
 "Due in %(duration)s\n"
 "              (%(date)s)"
 msgstr ""
+"期日まで %(duration)s\n"
+"              (%(date)s)"
 
 #: trac/ticket/templates/milestone_view.html:44
 #: trac/ticket/templates/roadmap.html:55
@@ -2880,7 +2891,7 @@ msgstr ""
 
 #: trac/ticket/templates/query_results.html:84
 msgid "(this ticket)"
-msgstr ""
+msgstr "(このチケット)"
 
 #: trac/ticket/templates/query_results.html:100
 msgid "(more results for this group on next page)"
@@ -2968,6 +2979,8 @@ msgid ""
 "Completed %(duration)s ago\n"
 "                  (%(date)s)"
 msgstr ""
+"%(duration)s 前に完了"
+"                  (%(date)s)"
 
 #: trac/ticket/templates/roadmap.html:44
 #, python-format
@@ -2975,6 +2988,8 @@ msgid ""
 "[1:%(duration)s late]\n"
 "                  (%(date)s)"
 msgstr ""
+"[1:%(duration)s 遅延]\n"
+"                  (%(date)s)"
 
 #: trac/ticket/templates/roadmap.html:50
 #, python-format
@@ -2982,6 +2997,8 @@ msgid ""
 "Due in %(duration)s\n"
 "                  (%(date)s)"
 msgstr ""
+"期日まで %(duration)s\n"
+"              (%(date)s)"
 
 #: trac/ticket/templates/roadmap.html:72
 msgid "Add new milestone"
@@ -3118,7 +3135,7 @@ msgstr "プレビュー"
 
 #: trac/ticket/templates/ticket.html:292
 msgid "Cancel comment edit"
-msgstr ""
+msgstr "コメントの編集を取り消す"
 
 #: trac/ticket/templates/ticket.html:305
 msgid "Add/Change #"
