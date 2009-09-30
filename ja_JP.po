@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Trac 0.12\n"
 "Report-Msgid-Bugs-To: trac-dev@googlegroups.com\n"
 "POT-Creation-Date: 2009-02-17 14:10+0900\n"
-"PO-Revision-Date: 2009-09-23 12:14+0900\n"
+"PO-Revision-Date: 2009-09-30 17:59+0900\n"
 "Last-Translator: Kyosuke Takayama <support@mc.neweb.ne.jp>\n"
 "Language-Team: ja_JP <trac-dev@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -101,9 +101,9 @@ msgid ""
 "only replace your own attachments. Replacing other's attachments requires"
 " ATTACHMENT_DELETE permission."
 msgstr ""
-"添付ファイル %(name)s を置き換える権限がありません。"
-"置き換えられるのは、あなたが添付したファイルだけです。"
-"他の人が添付したファイルを置き換えるには ATTACHMENT_DELETE 権限が必要です。"
+"添付ファイル %(name)s "
+"を置き換える権限がありません。置き換えられるのは、あなたが添付したファイルだけです。他の人が添付したファイルを置き換えるには "
+"ATTACHMENT_DELETE 権限が必要です。"
 
 #: trac/attachment.py:640
 #, python-format
@@ -538,7 +538,7 @@ msgstr "不明な管理画面"
 #: trac/admin/web_ui.py:187 trac/ticket/admin.py:57 trac/ticket/admin.py:82
 #: trac/ticket/admin.py:268 trac/ticket/admin.py:450 trac/ticket/admin.py:603
 #: trac/ticket/admin.py:691 trac/ticket/report.py:173
-#: trac/ticket/roadmap.py:676 trac/wiki/web_ui.py:290
+#: trac/ticket/roadmap.py:681 trac/wiki/web_ui.py:290
 msgid "Your changes have been saved."
 msgstr "変更が保存されました。"
 
@@ -841,7 +841,7 @@ msgstr ""
 "相対パスを指定した場合は、プロジェクトディレクトリの\n"
 "[1:log] ディレクトリに作成されます。([2:%(dir)s])"
 
-#: trac/admin/templates/admin_milestones.html:10 trac/ticket/roadmap.py:841
+#: trac/admin/templates/admin_milestones.html:10 trac/ticket/roadmap.py:846
 msgid "Milestones"
 msgstr "マイルストーン"
 
@@ -940,7 +940,7 @@ msgstr "対象"
 msgid "Note that"
 msgstr "注意:"
 
-#: trac/admin/templates/admin_perms.html:92 trac/ticket/templates/query.html:64
+#: trac/admin/templates/admin_perms.html:92 trac/ticket/templates/query.html:74
 msgid "or"
 msgstr " "
 
@@ -1539,7 +1539,7 @@ msgid "Changes"
 msgstr "更新内容"
 
 #: trac/templates/diff_view.html:19 trac/templates/diff_view.html:22
-#: trac/ticket/templates/query.html:106
+#: trac/ticket/templates/query.html:116
 msgid "between"
 msgstr " "
 
@@ -1550,7 +1550,7 @@ msgid "Version"
 msgstr "バージョン"
 
 #: trac/templates/diff_view.html:20 trac/templates/diff_view.html:23
-#: trac/ticket/templates/query.html:108
+#: trac/ticket/templates/query.html:118
 msgid "and"
 msgstr "と"
 
@@ -1891,7 +1891,7 @@ msgid "White space changes"
 msgstr "空白文字の変更"
 
 #: trac/templates/macros.html:127 trac/ticket/templates/milestone_view.html:60
-#: trac/ticket/templates/query.html:193
+#: trac/ticket/templates/query.html:203
 #: trac/ticket/templates/report_view.html:33
 #: trac/ticket/templates/roadmap.html:25
 #: trac/timeline/templates/timeline.html:32
@@ -1949,11 +1949,11 @@ msgid "Attach file"
 msgstr "ファイルを添付します"
 
 #: trac/templates/macros.html:240 trac/templates/macros.html:241
-#: trac/templates/macros.html:249
+#: trac/templates/macros.html:248
 msgid "s:"
 msgstr ":"
 
-#: trac/templates/macros.html:249
+#: trac/templates/macros.html:248
 msgid "Total"
 msgstr "合計"
 
@@ -1991,7 +1991,7 @@ msgstr "コンポーネントが選択されていません"
 msgid "The selected components have been removed."
 msgstr "選択したコンポーネントを削除しました。"
 
-#: trac/ticket/admin.py:263 trac/ticket/roadmap.py:653
+#: trac/ticket/admin.py:263 trac/ticket/roadmap.py:658
 msgid "Completion date may not be in the future"
 msgstr "完了日時に未来の日時を指定しようとしています"
 
@@ -2451,41 +2451,41 @@ msgid ""
 "by other groups. Please check your configuration."
 msgstr ""
 
-#: trac/ticket/roadmap.py:310 trac/ticket/roadmap.py:424
-#: trac/ticket/roadmap.py:559 trac/ticket/templates/roadmap.html:11
+#: trac/ticket/roadmap.py:314 trac/ticket/roadmap.py:429
+#: trac/ticket/roadmap.py:564 trac/ticket/templates/roadmap.html:11
 #: trac/ticket/templates/roadmap.html:16
 msgid "Roadmap"
 msgstr "ロードマップ"
 
-#: trac/ticket/roadmap.py:354
+#: trac/ticket/roadmap.py:359
 msgid "iCalendar"
 msgstr "iCalendar"
 
-#: trac/ticket/roadmap.py:433 trac/ticket/roadmap.py:831
+#: trac/ticket/roadmap.py:438 trac/ticket/roadmap.py:836
 #, python-format
 msgid "Milestone %(name)s"
 msgstr "マイルストーン %(name)s"
 
-#: trac/ticket/roadmap.py:452
+#: trac/ticket/roadmap.py:457
 #, python-format
 msgid "Ticket #%(num)s: %(summary)s"
 msgstr "チケット #%(num)s: %(summary)s"
 
-#: trac/ticket/roadmap.py:514
+#: trac/ticket/roadmap.py:519
 msgid "Milestones reached"
 msgstr "マイルストーンの完了"
 
-#: trac/ticket/roadmap.py:602
+#: trac/ticket/roadmap.py:607
 #, python-format
 msgid "The milestone \"%(name)s\" has been deleted."
 msgstr "マイルストーン \"%(name)s\" を削除しました。"
 
-#: trac/ticket/roadmap.py:642
+#: trac/ticket/roadmap.py:647
 #, python-format
 msgid "Milestone \"%(name)s\" already exists, please choose another name."
 msgstr "マイルストーン \"%(name)s\" は既に存在します。別の名前を指定してください。"
 
-#: trac/ticket/roadmap.py:645
+#: trac/ticket/roadmap.py:650
 msgid "You must provide a name for the milestone."
 msgstr "マイルストーンの名前を指定してください。"
 
@@ -2663,11 +2663,11 @@ msgstr "Cc への追加/削除"
 msgid "<Author field>"
 msgstr "更新者"
 
-#: trac/ticket/web_ui.py:1360 trac/ticket/templates/query.html:93
+#: trac/ticket/web_ui.py:1360 trac/ticket/templates/query.html:103
 msgid "yes"
 msgstr "はい"
 
-#: trac/ticket/web_ui.py:1360 trac/ticket/templates/query.html:96
+#: trac/ticket/web_ui.py:1360 trac/ticket/templates/query.html:106
 msgid "no"
 msgstr "いいえ"
 
@@ -2751,9 +2751,7 @@ msgstr ""
 msgid ""
 "Completed %(duration)s ago\n"
 "              (%(date)s)"
-msgstr ""
-"%(duration)s 前に完了"
-"                  (%(date)s)"
+msgstr "%(duration)s 前に完了                  (%(date)s)"
 
 #: trac/ticket/templates/milestone_view.html:33
 #, python-format
@@ -2806,61 +2804,59 @@ msgstr "フィルタ"
 msgid "Query filters"
 msgstr "検索フィルタ"
 
-#: trac/ticket/templates/query.html:42
-msgid "— OR —"
-msgstr ""
+#: trac/ticket/templates/query.html:45
+#, fuzzy
+msgid "Or"
+msgstr " "
 
-#: trac/ticket/templates/query.html:122
-msgid "Also include..."
-msgstr ""
+#: trac/ticket/templates/query.html:128
+#, fuzzy
+msgid "And"
+msgstr "と"
 
-#: trac/ticket/templates/query.html:125
-msgid "Add filter"
-msgstr "フィルタの追加"
-
-#: trac/ticket/templates/query.html:146
+#: trac/ticket/templates/query.html:156
 msgid "Columns"
 msgstr "カラム"
 
-#: trac/ticket/templates/query.html:160
+#: trac/ticket/templates/query.html:170
 msgid "Group results by"
 msgstr "結果のグループ化:"
 
-#: trac/ticket/templates/query.html:171
+#: trac/ticket/templates/query.html:181
 msgid "descending"
 msgstr "降順"
 
-#: trac/ticket/templates/query.html:175
+#: trac/ticket/templates/query.html:185
 msgid "Show under each result:"
 msgstr "各検索結果の下に表示:"
 
-#: trac/ticket/templates/query.html:185
+#: trac/ticket/templates/query.html:195
 #: trac/ticket/templates/report_view.html:27
 msgid "Max items per page"
 msgstr "1ページに表示する件数"
 
-#: trac/ticket/templates/query.html:228
+#: trac/ticket/templates/query.html:238
 msgid "Edit query"
 msgstr "このクエリを編集"
 
-#: trac/ticket/templates/query.html:236
+#: trac/ticket/templates/query.html:246
 msgid "Save query"
 msgstr "このクエリを保存"
 
-#: trac/ticket/templates/query.html:236
+#: trac/ticket/templates/query.html:246
 #, python-format
 msgid "Save updated query in report {%(id)s}"
 msgstr "更新されたクエリをレポート {%(id)s} に保存する"
 
-#: trac/ticket/templates/query.html:236
+#: trac/ticket/templates/query.html:246
 msgid "Create new report from current query"
 msgstr "現在のクエリから新しいレポートを作成する"
 
-#: trac/ticket/templates/query.html:245
+#: trac/ticket/templates/query.html:255
 msgid "Delete query"
 msgstr "このクエリを削除"
 
-#: trac/ticket/templates/query.html:251
+#: trac/ticket/templates/query.html:261
 msgid ""
 "[1:Note:] See [2:TracQuery]\n"
 "        for help on using queries."
@@ -2978,9 +2974,7 @@ msgstr "マイルストーン:"
 msgid ""
 "Completed %(duration)s ago\n"
 "                  (%(date)s)"
-msgstr ""
-"%(duration)s 前に完了"
-"                  (%(date)s)"
+msgstr "%(duration)s 前に完了                  (%(date)s)"
 
 #: trac/ticket/templates/roadmap.html:44
 #, python-format
@@ -3937,11 +3931,11 @@ msgstr "ログイン"
 msgid "Already logged in as %(user)s."
 msgstr "すでに %(user)s としてログイン中です。"
 
-#: trac/web/chrome.py:800
+#: trac/web/chrome.py:801
 msgid "(unknown template location)"
 msgstr "(ファイル名不明)"
 
-#: trac/web/chrome.py:801
+#: trac/web/chrome.py:802
 #, python-format
 msgid "Genshi %(error)s error while rendering template %(location)s"
 msgstr "テンプレート %(location)s のレンダリング中にGenshi %(error)s エラーが発生"
@@ -4006,7 +4000,7 @@ msgstr "%(link)s の表示"
 msgid "Error: Can't get description for macro %(name)s"
 msgstr "エラー: マクロ %(name)s の詳細説明が取得できません"
 
-#: trac/wiki/macros.py:594
+#: trac/wiki/macros.py:596
 msgid "Table of Contents"
 msgstr "目次"
 
@@ -4257,43 +4251,48 @@ msgstr "変更を確認"
 msgid "Version %(version)s (modified by %(author)s, %(date)s ago)"
 msgstr "バージョン %(version)s (%(author)s, %(date)s 前)"
 
-#: trac/wiki/templates/wiki_view.html:48
+#: trac/wiki/templates/wiki_view.html:46
+#, python-format
+msgid "Last modified by %(author)s on %(datetime)s (%(reldate)s ago)"
+msgstr "最終更新者:%(author)s, %(datetime)s (%(reldate)s 前)"
+
+#: trac/wiki/templates/wiki_view.html:51
 msgid "The page"
 msgstr "ページ"
 
-#: trac/wiki/templates/wiki_view.html:48
+#: trac/wiki/templates/wiki_view.html:51
 msgid "does not exist. You can create it here."
 msgstr "がありません。ここから作成できます。"
 
-#: trac/wiki/templates/wiki_view.html:50
+#: trac/wiki/templates/wiki_view.html:53
 msgid "You could also create the same page higher in the hierarchy:"
 msgstr "また、上位の階層にページを作成することもできます："
 
-#: trac/wiki/templates/wiki_view.html:71
+#: trac/wiki/templates/wiki_view.html:74
 msgid "Edit this page"
 msgstr "このページを編集"
 
-#: trac/wiki/templates/wiki_view.html:74
+#: trac/wiki/templates/wiki_view.html:77
 msgid "Create this page"
 msgstr "ページの作成"
 
-#: trac/wiki/templates/wiki_view.html:76
+#: trac/wiki/templates/wiki_view.html:79
 msgid "Using the template:"
 msgstr "テンプレートの使用:"
 
-#: trac/wiki/templates/wiki_view.html:79
+#: trac/wiki/templates/wiki_view.html:82
 msgid "(blank page)"
 msgstr "(空のページ)"
 
-#: trac/wiki/templates/wiki_view.html:98
+#: trac/wiki/templates/wiki_view.html:101
 msgid "Delete this version"
 msgstr "このバージョンを削除"
 
-#: trac/wiki/templates/wiki_view.html:100
+#: trac/wiki/templates/wiki_view.html:103
 msgid "Delete page"
 msgstr "このページを削除"
 
-#: trac/wiki/templates/wiki_view.html:109
+#: trac/wiki/templates/wiki_view.html:112
 msgid "The following pages have a name similar to this page, and may be related:"
 msgstr "以下のページはこのページの名前に似ているので、関係があるかもしれません："
 
