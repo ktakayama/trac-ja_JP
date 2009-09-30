@@ -1939,6 +1939,10 @@ msgid ""
 "        (%(size)s) - added by [4:%(author)s]\n"
 "        %(date)s ago."
 msgstr ""
+"[1:%(file)s]\n"
+"        [2:[3:]]\n"
+"        (%(size)s) - [4:%(author)s] により\n"
+"        %(date)s 前に追加。"
 
 #: trac/templates/macros.html:176 trac/templates/macros.html:187
 msgid "Attachments"
@@ -2450,6 +2454,8 @@ msgid ""
 "'%(groupname)s' milestone group reused status '%(status)s' already taken "
 "by other groups. Please check your configuration."
 msgstr ""
+"マイルストーングループ '%(groupname)s' は、他のグループで指定されているステータス '%(status)s' を"
+"利用しています。設定を確認して下さい。"
 
 #: trac/ticket/roadmap.py:314 trac/ticket/roadmap.py:429
 #: trac/ticket/roadmap.py:564 trac/ticket/templates/roadmap.html:11
@@ -2807,12 +2813,12 @@ msgstr "検索フィルタ"
 #: trac/ticket/templates/query.html:45
 #, fuzzy
 msgid "Or"
-msgstr " "
+msgstr ""
 
 #: trac/ticket/templates/query.html:128
 #, fuzzy
 msgid "And"
-msgstr "と"
+msgstr ""
 
 #: trac/ticket/templates/query.html:156
 msgid "Columns"
@@ -2884,6 +2890,8 @@ msgid ""
 "Reported by [1:%(author)s],\n"
 "                      %(date)s ago."
 msgstr ""
+"報告者: [1:%(author)s], \n"
+"                      %(date)s 前"
 
 #: trac/ticket/templates/query_results.html:84
 msgid "(this ticket)"
@@ -3105,13 +3113,15 @@ msgid ""
 "Version %(version)s, edited %(date)s ago\n"
 "                      by %(author)s"
 msgstr ""
+"バージョン %(version)s, %(author)s\n"
+"                      (%(date)s前)"
 
 #: trac/ticket/templates/ticket.html:271
 #, python-format
 msgid ""
 "Last edited %(date)s ago\n"
 "                      by %(author)s"
-msgstr "%(author)s: %(date)s 前"
+msgstr "最終更新者: %(author)s (%(date)s前)"
 
 #: trac/ticket/templates/ticket.html:276
 #: trac/versioncontrol/templates/changeset.html:92
@@ -3728,7 +3738,7 @@ msgstr "下で選択した2つのリビジョンの比較"
 
 #: trac/versioncontrol/templates/revisionlog.html:93
 msgid "Old / New"
-msgstr ""
+msgstr "古 / 新"
 
 #: trac/versioncontrol/templates/revisionlog.html:93
 msgid "Diff"
@@ -3943,12 +3953,12 @@ msgstr "テンプレート %(location)s のレンダリング中にGenshi %(erro
 #. TRANSLATOR: ... not logged in, you may want to 'do so' now (link)
 #: trac/web/main.py:496
 msgid "do so"
-msgstr ""
+msgstr "こちら"
 
 #: trac/web/main.py:498
 #, python-format
 msgid "You are currently not logged in. You may want to %(do_so)s now."
-msgstr ""
+msgstr "現在ログインしていません。%(do_so)sからログインしてください。"
 
 #: trac/wiki/admin.py:84
 #, python-format
